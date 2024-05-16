@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import LanguageSwitcher from "../LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 
-const Layout = () => {
+const Footer = () => {
     
   const { t } = useTranslation();
 
@@ -15,11 +15,11 @@ const Layout = () => {
         <div>
             <Link to="/"> Home </Link>
             <Link to="/contact"> contact </Link>
-            <Link to="/"> Home </Link>
+            <Link to="/Project"> project </Link>
             <Link to="/"> Home </Link>
         </div>
     </nav>
   )
 };
 
-export default Layout;
+export default Footer;

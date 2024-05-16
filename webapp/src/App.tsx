@@ -4,9 +4,11 @@ import { useTranslation } from "react-i18next";
 
 import { Outlet } from 'react-router-dom';
 import './App.css';
-import Layout from './components/Layout';
+import NavBar from './components/Layout/NavBar';
+import Footer from './components/Layout/Footer';
 
 function App() {
+
   const { i18n } = useTranslation();
 
   useEffect(() => {    // Verifica se há um idioma armazenado no localStorage
@@ -16,9 +18,9 @@ function App() {
 
   return (
     <div className='App'>
-      <Layout/>
+      <NavBar/>
       <Outlet/>
-
+      <Footer/>
     </div>
   );
 }
