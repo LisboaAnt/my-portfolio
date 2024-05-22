@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { useTranslation } from "react-i18next";
-import './styles.scss'
+import './styles.scss';
 
-import FlagBrazil from "../../../public/img/FlagBrazil.svg"
-import FlagSpain from "../../../public/img/FlagSpain.svg"
-import FlagUS from "../../../public/img/FlagUS.svg"
+import FlagBrazil from "../../../public/img/FlagBrazil.svg";
+import FlagSpain from "../../../public/img/FlagSpain.svg";
+import FlagUS from "../../../public/img/FlagUS.svg";
 
 const LanguageOptions = [
     {
@@ -22,7 +22,7 @@ const LanguageOptions = [
         value: "en",
         flag: FlagUS
     }
-]
+];
 
 const LanguageSwitcher = () => {
     const { i18n } = useTranslation();
@@ -35,30 +35,28 @@ const LanguageSwitcher = () => {
 
     return (
         <div 
-        onMouseEnter={() => setShowOptions(true)}
-        onMouseLeave={() => setShowOptions(false)}>
-            <div
-                className="language-switcher"
-            >
+            className="language-switcher-container"
+            onMouseEnter={() => setShowOptions(true)}
+            onMouseLeave={() => setShowOptions(false)}
+        >
+            <div className="language-switcher">
                 {LanguageOptions.map((language) => (
                     i18n.language === language.value &&
                     <span key={language.value} onClick={() => setShowOptions(!showOptions)}>
-                        <img src={language.flag} ></img>
+                        <img src={language.flag} alt={language.name} className="main-image" />
                     </span>
                 ))}
             </div>
-            {showOptions && (
-                <div className="language-options">
-                    {LanguageOptions.map((language) => (
-                        i18n.language !== language.value &&
-                        <span key={language.value} onClick={() => { changeLanguage(language.value); setShowOptions(false); }}>
-                            <img src={language.flag} ></img>
-                        </span>
-                    ))}
-                </div>
-            )}
+            <div className={`language-options ${showOptions ? 'show' : ''}`}>
+                {LanguageOptions.map((language) => (
+                    i18n.language !== language.value &&
+                    <span className="languageBox" key={language.value} onClick={() => { changeLanguage(language.value); setShowOptions(false); }}>
+                        <img src={language.flag} alt={language.name} className="hover-image" />
+                    </span>
+                ))}
+            </div>
         </div>
     );
-}
+};
 
 export default LanguageSwitcher;

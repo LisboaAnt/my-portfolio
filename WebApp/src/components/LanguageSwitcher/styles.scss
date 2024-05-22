@@ -1,46 +1,57 @@
-.language-switcher {
-    display: inline-block;
+.language-switcher-container {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Adjust based on your layout */
+    height: 40px;
+  }
   
-    span {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 40px; // Tamanho do círculo
-      height: 40px; // Tamanho do círculo
-      border-radius: 50%; // Forma de círculo
-      overflow: hidden;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
+  .language-switcher {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    z-index: 2; /* Ensure it's above the options */
+  }
   
-      &:hover {
-        background-color: #f0f0f0; // Cor de fundo ao passar o mouse
-      }
+  .language-switcher .main-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 20%;
+  }
   
-    }
-    img {
-        width: 30px; // Ocupar todo o espaço do círculo
-        height: 30px; // Ocupar todo o espaço do círculo
-      }  
+  .language-options {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 20px; /* Decreased width */
+    transition: transform 0.3s ease; /* Smooth transition */
+    z-index: 1;
+  }
+  
+  .language-options .languageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease; /* Smooth transition */
 
-    .language-options {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 80px; // Largura total das opções de idioma
+    
+  }
   
-      span {
-        cursor: pointer;
+  .language-options .languageBox .hover-image {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
   
-        img {
-          width: 20px; // Tamanho da bandeira
-          height: 20px; // Tamanho da bandeira
-        }
-      }
-    }
+  .language-options.show .languageBox:nth-child(1) {
+    transform: translateX(-20px); /* Adjusted translation */
+  }
+  
+  .language-options.show .languageBox:nth-child(2) {
+    transform: translateX(20px); /* Adjusted translation */
   }
   
