@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { useTranslation } from "react-i18next";
-import './styles.scss';
+import './styles.scss'
 
 import FlagBrazil from "../../../public/img/FlagBrazil.svg";
 import FlagSpain from "../../../public/img/FlagSpain.svg";
