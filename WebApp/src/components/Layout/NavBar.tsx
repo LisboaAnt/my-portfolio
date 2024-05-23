@@ -1,6 +1,7 @@
 import LanguageSwitcher from "../LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 import Letreiro from "../Letreiro/index"
+import DownMenu from "../DownMenu";
 
 const NavBar = () => {
   const { t } = useTranslation();
@@ -18,6 +19,8 @@ const NavBar = () => {
         </div>
 
         <LanguageSwitcher />
+
+        <DownMenu/>
       </div>
     </nav>
   );

@@ -6,7 +6,18 @@
         },
         "NavBar":{
             
-            "Letreiro": "🟢 AVAILABLE FOR FREELANCER WORK!!"
+            "Letreiro": "🟢 AVAILABLE FOR FREELANCER WORK!!",
+
+            "DownMenu": {
+                "open": "Menu",
+                "close": "Close",
+                "about": "about",
+                "contact": "contact",
+                "work": "work"
+
+            }
+        
+        
         }
     }
 }

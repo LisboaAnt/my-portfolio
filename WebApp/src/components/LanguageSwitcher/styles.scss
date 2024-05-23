@@ -53,4 +53,30 @@
   .language-options.show .languageBox:nth-child(2) {
     transform: translateX(20px); /* Adjusted translation */
   }
-  
+
+
+.language-name-tooltip {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    top: 100%; /* Posiciona abaixo da bandeira */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    margin-top: 15px; /* Adiciona um pequeno espaço entre a bandeira e o texto */
+    z-index: 10;
+}
+
+.language-name-tooltip::before {
+    content: '';
+    margin-top: -10px;
+    position: absolute;
+    top: -11px; /* Posiciona o triângulo um pouco acima da borda superior */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
+}
