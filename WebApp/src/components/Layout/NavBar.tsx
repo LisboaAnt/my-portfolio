@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import LanguageSwitcher from "../LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 import Letreiro from "../Letreiro/index"

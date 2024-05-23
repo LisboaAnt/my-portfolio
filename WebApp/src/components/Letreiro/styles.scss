@@ -18,10 +18,11 @@
   }
   
   .marquee-content {
-    white-space: nowrap;
+    white-space: pre;
     font-weight: bold; /* Deixa a fonte mais grossa */
-    animation: marquee 8s linear infinite;
+    animation: marquee 4s linear infinite;
   }
+
   
   @keyframes marquee {
     0% {
