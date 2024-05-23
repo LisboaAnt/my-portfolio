@@ -1,0 +1,34 @@
+.marquee-container {
+    position: relative;
+    width: 350px; /* Largura do letreiro */
+    height: 40px; /* Altura do letreiro */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff; /* Cor de fundo */
+    border-radius: 50px;
+    border: 2px solid transparent; /* Inicialmente sem borda */
+    transition: border 0.3s ease, transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Transição suave */
+  }
+  
+  .marquee-container:hover {
+    transform: scale(1.1); /* Aumentar para 120% ao passar o mouse */
+    border: 2px solid #000; /* Adiciona borda preta ao passar o mouse */
+  }
+  
+  .marquee-content {
+    white-space: nowrap;
+    font-weight: bold; /* Deixa a fonte mais grossa */
+    animation: marquee 8s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0); /* Inicia a animação com o texto no início do letreiro */
+    }
+    100% {
+      transform: translateX(-50%); /* Move o texto para a esquerda */
+    }
+  }
+  
