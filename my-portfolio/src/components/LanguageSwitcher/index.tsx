@@ -40,7 +40,7 @@ const LanguageSwitcher = () => {
             onMouseEnter={() => setShowOptions(true)}
             onMouseLeave={() => setShowOptions(false)}
         >
-            <div className="language-switcher gradient-shadow-2">
+            <div className="language-switcher ">
                 {LanguageOptions.map((language) => (
                     i18n.language === language.value &&
                     <span key={language.value} onClick={() => setShowOptions(!showOptions)} >

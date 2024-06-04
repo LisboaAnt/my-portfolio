@@ -9,8 +9,8 @@
             "Letreiro": "🟢 AVAILABLE FOR FREELANCER WORK!!",
 
             "DownMenu": {
-                "open": "Menu",
-                "close": "Close",
+                "open": "Close",
+                "close": "Menu",
                 "about": "about",
                 "contact": "contact",
                 "work": "work"

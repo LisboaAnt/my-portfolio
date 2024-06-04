@@ -6,7 +6,16 @@
         },
         "NavBar":{
             
-            "Letreiro": "🟢 DISPONÍVEL PARA TRABALHO FREELANCER!!"
+            "Letreiro": "🟢 DISPONÍVEL PARA TRABALHO FREELANCER!!",
+
+            "DownMenu": {
+                "open": "Fechar",
+                "close": "Menu",
+                "about": "sobre",
+                "contact": "contato",
+                "work": "trabalho"
+            }
+            
         }
     }
 }

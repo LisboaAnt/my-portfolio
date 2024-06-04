@@ -7,21 +7,23 @@ const NavBar = () => {
   const { t } = useTranslation();
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{ padding: "30px" }}>
-      <div className="container">
-        <a className="navbar-brand" href="#">
-          Antônio Lisboa
+    <nav className="navbar navbar-expand-lg navbar-light p-lg-5 p-md-3 p-2">
+ 
+      <div className="container d-flex justify-content-between align-items-center">
+        <a className="navbar-brand tbk" href="#">
+          antlisboa.
         </a>
 
-        <Letreiro text={t("NavBar.Letreiro")} />
-        <div>
-          
+        <div className="flex-grow-1 d-flex justify-content-center d-none d-lg-flex">
+          <Letreiro text={t("NavBar.Letreiro")} />
         </div>
 
-        <LanguageSwitcher />
-
-        <DownMenu/>
+        <div className="d-flex">
+          <LanguageSwitcher />
+          <DownMenu />
+        </div>
       </div>
+
     </nav>
   );
 };
