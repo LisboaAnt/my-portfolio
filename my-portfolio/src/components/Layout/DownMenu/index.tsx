@@ -43,8 +43,8 @@ const NavMenu: React.FC = () => {
             <li onClick={toggleMenu} className="nav-menu-content-item">
               <Link to="/contact"><i className="bi bi-envelope"></i>{t("NavBar.DownMenu.contact")}</Link>
             </li>
-            <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/work"><i className="bi bi-briefcase"></i>work</Link>
+            <li onClick={toggleMenu} className="nav-menu-content-item ">
+              <Link to="/work" ><i className="bi bi-journal-code green"></i><div className='greenH'>Projects</div></Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
               <Link to="/blog"><i className="bi bi-journal"></i>Blog</Link>

@@ -1,5 +1,7 @@
 .nav-menu {
+    margin-top: -5px;
     position: relative;
+    z-index: 2;
     
     .nav-menu-btn {
       color: #1c1c1c;
@@ -9,7 +11,7 @@
       background: none;
       border: none;
       cursor: pointer;
-      font-size: 1.3em;
+      font-size: 1.1em;
       min-width: 120px; /* Tamanho fixo do botão */
       overflow: hidden; /* Ocultar texto excedente */
       text-overflow: ellipsis; /* Adicionar reticências ao texto excedente */
@@ -22,7 +24,7 @@
         align-items: center;
         background-color: #f2f2f2;
         padding-inline: 10px;
-        padding-block: 5px;
+        padding-block:10px;
         border-radius: 10px;
         min-width: 100px;
         
@@ -69,10 +71,6 @@
   
             i {
               margin-right: 10px; /* Espaço entre o ícone e o texto */
-            }
-  
-            &:hover {
-              color: #ffcc00;
             }
           }
         }

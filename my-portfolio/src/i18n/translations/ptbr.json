@@ -1,7 +1,9 @@
 {
     "translation":{
         "home": {
-            "title": "Bem vindo ao meu site"
+            "title": "E aí, eu sou o ",
+            "description": "Planejo, escrevo e crio aplicações web",
+            "description2": "Adoro desafios e estou sempre buscando soluções criativas."
             
         },
         "NavBar":{
@@ -15,7 +17,10 @@
                 "contact": "contato",
                 "work": "trabalho"
             }
-            
+        },
+        "Footer": {
+            "companyName": "Antônio Lisboa",
+            "rightsReserved": "Todos os direitos reservados."
         }
     }
 }

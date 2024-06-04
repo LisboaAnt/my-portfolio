@@ -1,0 +1,30 @@
+.footer {
+    background-color: white;
+    border-top: 1px solid #e7e7e7;
+  }
+  
+  .footer a {
+    color: #6c757d; /* Cor cinza */
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 1.8em; /* Tamanho maior da fonte */
+    transition: color 0.3s, background-color 0.3s;
+  }
+  .footer p {
+    font-size: 1.2em;
+  }
+  
+  .list-inline-item {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+/* Media query para telas pequenas */
+@media (max-width: 768px) {
+    .footer a {
+      font-size: 1em; /* Tamanho menor da fonte */
+    }
+    .footer p {
+        font-size: 0.8em;
+      }
+  }

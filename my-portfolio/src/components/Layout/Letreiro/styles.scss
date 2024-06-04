@@ -1,25 +1,29 @@
-.marquee-container {
-    position: relative;
+.marquee-container {    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 400px; /* Largura do letreiro */
     height: 35px; /* Altura do letreiro */
     overflow: hidden;
     display: flex;
+    
     align-items: center;
     justify-content: flex-start;
-    background-color: #ececec; /* Cor de fundo */
+    background-color: #f1f5f695; /* Cor de fundo */
     border-radius: 50px;
     border: 1px solid transparent; /* Inicialmente sem borda */
     transition: border 0.2s ease, transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Transição suave */
   }
   
   .marquee-container:hover {
-    transform: scale(1.02); /* Aumentar para 120% ao passar o mouse */
-    border: 0.5px solid #000; /* Adiciona borda preta ao passar o mouse */
+    transform: scale(1.02) translate(-50%, -50%); /* Aumentar para 120% ao passar o mouse */
+    border: 0.5px solid #00000058; /* Adiciona borda preta ao passar o mouse */
   }
   
   .marquee-content {
     white-space: pre; 
-    font-size: 1.3em;
+    font-size: 1.2em;
     animation: marquee 4s linear infinite;
   }
 
