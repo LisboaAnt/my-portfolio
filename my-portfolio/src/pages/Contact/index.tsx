@@ -31,11 +31,19 @@ const Contact: React.FC = () => {
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault();
 
-        // Se houver erros de validação, não envie o formulário
-        if (nameError || messageError || name.length < 1 || email.length < 1 || message.length < 1) {
-            setMessageError(t("contact.error.message"));
+
+        if(name.length < 1){
             setNameError(t("contact.error.name"));
+        }
+
+        if(email.length < 1){
             setEmailError(t("contact.error.email"));
+        }
+        if(message.length < 1){
+            setMessageError(t("contact.error.message"));
+        }
+        // Se houver erros de validação, não envie o formulário
+        if (nameError || messageError ||name.length < 1 || email.length < 1 || message.length < 1) {
             return;
         }
 
@@ -113,8 +121,8 @@ const Contact: React.FC = () => {
                                     />
                                     {messageError && <div className="invalid-feedback">{messageError}</div>}
                                 </div>
-                                <div className="text-box mt-5 py-3">
-                                    <button className="btn btn-white btn-animate gradient-shadow-2 mt-5 px-5 py-2" type="submit">{t("contact.button")}</button>
+                                <div className="text-box mt-4 mb-5 py-4">
+                                    <button className="btn btn-white btn-animate gradient-shadow-2 mt-2 px-5 py-2" type="submit">{t("contact.button")}</button>
                                 </div>
                             </form>
                         </div>

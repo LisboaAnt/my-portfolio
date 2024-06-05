@@ -6,7 +6,7 @@ import './App.scss';
 
 import NavBar from './components/Layout/NavBar';
 import Footer from './components/Layout/Footer';
-import ScrollToTop from './components/ScrollTop';
+import ScrollToTop from './ts/ScrollTop';
 
 function App() {
 
