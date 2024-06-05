@@ -1,23 +1,37 @@
 {
     "translation":{
-        "home": {
-            "title": "E aí, eu sou o ",
-            "description": "Planejo, escrevo e crio aplicações web",
-            "description2": "Adoro desafios e estou sempre buscando soluções criativas."
-            
-        },
-        "NavBar":{
-            
-            "Letreiro": "🟢 DISPONÍVEL PARA TRABALHO FREELANCER!!",
 
+        "NavBar":{
+            "Letreiro": "🟢 DISPONÍVEL PARA TRABALHO FREELANCER!!",
             "DownMenu": {
                 "open": "Fechar",
                 "close": "Menu",
                 "about": "sobre",
                 "contact": "contato",
-                "work": "trabalho"
+                "work": "trabalho",
+                "projects": "projetos",
+                "courses":"Cursos"
             }
         },
+    
+        "home": {
+            "title": "E aí, eu sou o ",
+            "description": "Planejo, escrevo e desenvolvo aplicações web",
+            "description2": "Adoro desafios e estou sempre buscando soluções criativas." 
+        },
+    
+        "contact":{
+            "title": "Contato",
+            "name": "Nome",
+            "message": "O que você tem em mente?",
+            "button":"Enviar",
+            "error":{
+                "message": "Mínimo 20 caracteres.",
+                "name":"Mínimo 5 caracteres.",
+                "email":"E-mail inválido"
+            }
+        },
+
         "Footer": {
             "companyName": "Antônio Lisboa",
             "rightsReserved": "Todos os direitos reservados."

@@ -10,7 +10,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg navbar-light p-lg-5 p-md-5 p-2">
  
       <div className="container d-flex justify-content-between align-items-center">
-        <a className="navbar-brand tbk" href="#">
+        <a className="navbar-brand tbk" href="/">
           AntLisboa.
         </a>
 
