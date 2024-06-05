@@ -19,6 +19,14 @@ const NavMenu: React.FC = () => {
     }
   };
 
+  const handleLogoClick = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  };
+
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
     return () => {
@@ -38,19 +46,19 @@ const NavMenu: React.FC = () => {
         <div className="background-linear-gradient gradient-shadow text-center menuIsOpen">
           <ul className="nav-menu-content ">
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/about"><i className="bi bi-info-circle"></i>{t("NavBar.DownMenu.about")}</Link>
+              <Link to="/about" onClick={handleLogoClick}><i className="bi bi-info-circle"></i>{t("NavBar.DownMenu.about")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/contact"><i className="bi bi-envelope gray"></i>{t("NavBar.DownMenu.contact")}</Link>
+              <Link to="/contact" onClick={handleLogoClick}><i className="bi bi-envelope gray"></i>{t("NavBar.DownMenu.contact")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item ">
-              <Link to="/work" ><i className="bi bi-journal-code green"></i>{t("NavBar.DownMenu.projects")}</Link>
+              <Link to="/work" onClick={handleLogoClick}><i className="bi bi-journal-code green"></i>{t("NavBar.DownMenu.projects")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/courses"><i className="bi bi-youtube red"></i>{t("NavBar.DownMenu.courses")}</Link>
+              <Link to="/courses" onClick={handleLogoClick}><i className="bi bi-youtube red"></i>{t("NavBar.DownMenu.courses")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/blog"><i className="bi bi-journal purple"></i>Blog</Link>
+              <Link to="/blog" onClick={handleLogoClick}><i className="bi bi-journal purple"></i>Blog</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
               <a href="https://www.linkedin.com/in/antonio-lisboa-de-carvalho-b5a5a4194/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin blue"></i>Linkedin</a>

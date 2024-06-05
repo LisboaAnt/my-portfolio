@@ -1,6 +1,4 @@
-import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
-
 import App from '../App.tsx';
 import NoPage from '../pages/NoPage/index.tsx';
 import Home from '../pages/Home/index.tsx';
@@ -28,12 +26,12 @@ const router = createBrowserRouter([
         element: <Cursos />,
       },
       {
-        path: '/project/:id',
-        element: <Project />,
-      },
-      {
         path: '/project',
         element: <HubProjects />,
+      },
+      {
+        path: '/project/:id',
+        element: <Project />,
       },
     ],
   },

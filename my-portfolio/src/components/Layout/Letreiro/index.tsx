@@ -1,27 +1,25 @@
 import React from 'react';
 import './styles.scss';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 interface LetreiroProps {
   text: string;
 }
 
 const Letreiro: React.FC<LetreiroProps> = ({ text }) => {
-  const navigate = useNavigate();
 
-  const handleRedirect = () => {
-    const currentPath = window.location.pathname;
-    const targetPath = '/contact';
-
-    if (currentPath !== targetPath) {
-      navigate('/contact');
-    }
+  const handleLogoClick = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
   };
 
   return (
-    <div className="marquee-container" onClick={handleRedirect} style={{ color: 'black', textDecoration: 'none', cursor: 'pointer' }}>
+    <Link className="marquee-container" to="/contact" onClick={handleLogoClick} style={{ color: 'black', textDecoration: 'none', cursor: 'pointer' }}>
       <div className="marquee-content">{text + `          ` + text}</div>
-    </div>
+    </Link>
   );
 };
 

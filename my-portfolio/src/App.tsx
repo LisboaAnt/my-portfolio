@@ -6,6 +6,7 @@ import './App.scss';
 
 import NavBar from './components/Layout/NavBar';
 import Footer from './components/Layout/Footer';
+import ScrollToTop from './components/ScrollTop';
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
 
   return (
     <div className='App'>
+      <ScrollToTop/>
+
       <NavBar/>
       <Outlet/>
       <Footer/>
