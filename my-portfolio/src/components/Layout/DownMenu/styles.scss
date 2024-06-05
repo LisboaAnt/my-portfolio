@@ -1,4 +1,5 @@
 .nav-menu {
+  
     margin-top: -5px;
     position: relative;
     z-index: 2;
@@ -71,6 +72,9 @@
   
             i {
               margin-right: 10px; /* Espaço entre o ícone e o texto */
+            }
+            &:hover {
+              color: #ffcc00;
             }
           }
         }

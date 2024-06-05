@@ -41,19 +41,22 @@ const NavMenu: React.FC = () => {
               <Link to="/about"><i className="bi bi-info-circle"></i>{t("NavBar.DownMenu.about")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/contact"><i className="bi bi-envelope"></i>{t("NavBar.DownMenu.contact")}</Link>
+              <Link to="/contact"><i className="bi bi-envelope gray"></i>{t("NavBar.DownMenu.contact")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item ">
-              <Link to="/work" ><i className="bi bi-journal-code green"></i><div className='greenH'>Projects</div></Link>
+              <Link to="/work" ><i className="bi bi-journal-code green"></i>{t("NavBar.DownMenu.projects")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/blog"><i className="bi bi-journal"></i>Blog</Link>
+              <Link to="/courses"><i className="bi bi-youtube red"></i>{t("NavBar.DownMenu.courses")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <a href="https://www.linkedin.com/in/victor-martins-t/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i>Linkedin</a>
+              <Link to="/blog"><i className="bi bi-journal purple"></i>Blog</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <a href="https://github.com/Tranivic" target="_blank" rel="noopener noreferrer"><i className="bi bi-github"></i>Github</a>
+              <a href="https://www.linkedin.com/in/antonio-lisboa-de-carvalho-b5a5a4194/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin blue"></i>Linkedin</a>
+            </li>
+            <li onClick={toggleMenu} className="nav-menu-content-item">
+              <a href="https://github.com/LisboaAnt" target="_blank" rel="noopener noreferrer"><i className="bi bi-github black"></i>Github</a>
             </li>
           </ul>
         </div>
