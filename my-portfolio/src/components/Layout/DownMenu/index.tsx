@@ -43,8 +43,8 @@ const NavMenu: React.FC = () => {
         </span>
       </button>
       {menuIsOpen && (
-        <div className="background-linear-gradient gradient-shadow text-center menuIsOpen">
-          <ul className="nav-menu-content ">
+        <div className="background-linear-gradient text-center menuIsOpen gradient-shadow">
+          <ul className="nav-menu-content">
             <li onClick={toggleMenu} className="nav-menu-content-item">
               <Link to="/me" onClick={handleLogoClick}><i className="bi bi-info-circle"></i>{t("NavBar.DownMenu.about")}</Link>
             </li>
