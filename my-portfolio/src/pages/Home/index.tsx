@@ -17,7 +17,7 @@ function Home() {
 
                         <div className="text-box mt-3 pt-3">
                             <Link to="/contact" className="btn btn-white btn-animate gradient-shadow-2 mt-5"> 
-                                Me contrate!
+                                {t("home.button")}
                             </Link>
                         </div>
                     </div>

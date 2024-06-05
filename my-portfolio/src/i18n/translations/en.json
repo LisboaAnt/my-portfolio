@@ -17,7 +17,8 @@
         "home": {
             "title": "hi there i'm ",
             "description": "I plan, write and develop web applications",
-            "description2": "I love challenges and am always looking for creative solutions."
+            "description2": "I love challenges and am always looking for creative solutions.",
+            "button": "Hire me!"
         },
 
         "me":{
@@ -27,7 +28,8 @@
             "about2": "I am studying Computer Science at UFC, where I have the opportunity to expand my knowledge and apply it in practical projects. With extensive experience in SQL databases and a strong performance as a data analyst in NoSQL databases, including the completion of mini-courses on the subject, I have also developed communication skills through participation in theatrical plays. Throughout my professional journey, I have acquired valuable skills such as teamwork, proactivity, decision-making, and commitment to deadlines.",
             "experience":"Professional experience",
             "experience2":"Database Analyst (MongoDB), NERDS, UFC","experience2.1":"April 2023 - February 2024",
-            "experience3":"Full Stack Developer Intern, LUDI, UFC","experience3.1":"February 2024 – present"
+            "experience3":"Full Stack Developer Intern, LUDI, UFC","experience3.1":"February 2024 – present",
+            "curriculum": "Curriculum", "curriculum1": "For more information, download my resume"
         },
 
         "contact":{

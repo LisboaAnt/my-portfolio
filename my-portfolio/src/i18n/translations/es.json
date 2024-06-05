@@ -17,7 +17,8 @@
         "home": {
             "title": "Que pasa, soy ",
             "description": "Planifico, escribo y desarrollo aplicaciones web",
-            "description2": "Me encantan los desafíos y siempre busco soluciones creativas."  
+            "description2": "Me encantan los desafíos y siempre busco soluciones creativas.",
+            "button": "¡Contrátame!"  
         },
 
         "me":{
@@ -27,7 +28,8 @@
             "about2": "Estoy cursando la carrera de Ciencias de la Computación en la UFC, donde tengo la oportunidad de expandir mis conocimientos y aplicarlos en proyectos prácticos. Con una amplia experiencia en bases de datos SQL y una sólida actuación como analista de datos en bases de datos NoSQL, incluyendo la realización de mini-cursos sobre el tema, también he desarrollado habilidades comunicativas a través de la participación en obras de teatro. A lo largo de mi trayectoria profesional, he adquirido habilidades valiosas como trabajo en equipo, proactividad, toma de decisiones y compromiso con los plazos.",
             "experience":"Experiencia profesional",
             "experience2":"Analista de Bases de Datos (MongoDB), NERDS, UFC","experience2.1":"Abril 2023 - Febrero 2024",
-            "experience3":"Pasante de desarrollo Full Stack, LUDI, UFC","experience3.1":"Febrero de 2024 – presente"
+            "experience3":"Pasante de desarrollo Full Stack, LUDI, UFC","experience3.1":"Febrero de 2024 – presente",
+            "curriculum": "Resumen profesional", "curriculum1": "Para más información descarga mi currículum"
         },
 
         "contact":{

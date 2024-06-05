@@ -50,6 +50,7 @@
                     background-color: #f3f3f3b3;
                     border-radius: 10px;
                     padding: 1em;
+                    max-width: 24em;
                     h2 {
                         margin-bottom: 1rem;
                     }
@@ -126,7 +127,19 @@
         margin-inline: -50px;
     }
     .experience {
-        margin-top: -5px;
+        margin-top: -6px;
+        transform: scale(0.8);
+        margin-inline: -30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .right-column .card{
+        transform: scale(0.8);
+        margin-inline: -50px;
+    }
+    .experience {
+        margin-top: -6px;
         transform: scale(0.8);
         margin-inline: -30px;
     }
@@ -137,6 +150,8 @@
         transform: scale(1);
         margin-inline: 0px;
         margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .experience {
         transform: scale(1);

@@ -19,7 +19,7 @@ const Footer = React.memo(() => {
       <div className="container">
         <ul className="list-inline">
           <li className="list-inline-item"><Link onClick={handleLogoClick} to="/" className='blackH gradient-shadow-3'>{t("Inicio")}</Link></li>
-          <li className="list-inline-item"><Link onClick={handleLogoClick} to="/about" className='grayH'>{t("Sobre")}</Link></li>
+          <li className="list-inline-item"><Link onClick={handleLogoClick} to="/me" className='grayH'>{t("Sobre")}</Link></li>
           <li className="list-inline-item"><Link onClick={handleLogoClick} to="/contact" className='tealH'>{t("Contato")}</Link></li>
           <li className="list-inline-item"><Link onClick={handleLogoClick} to="/projects" className='greenH'>{t("Projetos")}</Link></li>
           <li className="list-inline-item"><Link onClick={handleLogoClick} to="/blog" className='yellowH'>{t("Blog")}</Link></li>
