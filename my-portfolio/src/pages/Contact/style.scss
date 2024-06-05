@@ -21,6 +21,8 @@
     border-radius: 10px;
     font-size: 1.3em;
     background-color: rgb(241, 243, 247);
+    min-height: 4em !important;
+    max-height: 7em;
 }
 
 @media (max-width: 768px) {

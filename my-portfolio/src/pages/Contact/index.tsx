@@ -114,7 +114,7 @@ const Contact: React.FC = () => {
                                     {messageError && <div className="invalid-feedback">{messageError}</div>}
                                 </div>
                                 <div className="text-box mt-5 py-3">
-                                    <button className="btn btn-white btn-animate gradient-shadow-2 mb-5 px-5 py-2" type="submit">{t("contact.button")}</button>
+                                    <button className="btn btn-white btn-animate gradient-shadow-2 mt-5 px-5 py-2" type="submit">{t("contact.button")}</button>
                                 </div>
                             </form>
                         </div>
