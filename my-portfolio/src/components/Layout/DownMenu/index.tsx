@@ -46,7 +46,7 @@ const NavMenu: React.FC = () => {
         <div className="background-linear-gradient gradient-shadow text-center menuIsOpen">
           <ul className="nav-menu-content ">
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/about" onClick={handleLogoClick}><i className="bi bi-info-circle"></i>{t("NavBar.DownMenu.about")}</Link>
+              <Link to="/me" onClick={handleLogoClick}><i className="bi bi-info-circle"></i>{t("NavBar.DownMenu.about")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
               <Link to="/contact" onClick={handleLogoClick}><i className="bi bi-envelope gray"></i>{t("NavBar.DownMenu.contact")}</Link>

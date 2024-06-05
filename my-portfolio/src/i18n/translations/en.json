@@ -6,10 +6,10 @@
             "DownMenu": {
                 "open": "Close",
                 "close": "Menu",
-                "about": "about",
-                "contact": "contact",
-                "work": "work",
-                "projects": "projects",
+                "about": "About Me",
+                "contact": "Contact",
+                "work": "Work",
+                "projects": "Projects",
                 "courses": "Courses"
             }
         },

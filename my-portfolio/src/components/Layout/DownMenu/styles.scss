@@ -58,7 +58,9 @@
         align-items: center;
   
         .nav-menu-content-item {
-          margin: 10px 20px;
+          margin: 10px 0px;
+          margin-left: 20px;
+          margin-right: 0px;
           display: flex;
           align-items: center;
   
@@ -84,7 +86,7 @@
 
 
   .menuIsOpen{
-    width: 150px;
+    width: 160px;
   }
   
   @media (max-width: 768px) {
