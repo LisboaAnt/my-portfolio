@@ -41,14 +41,28 @@ function Me() {
                             <p className='about1'>{t("me.about")}</p>
                             <p className='about2'>{t("me.about2")}</p>
                         </div>
-                        <div className='experience'>
-                            <h2>{t("me.experience")}</h2>
-                            <p>{t("me.experience2")}<br />
-                                {t("me.experience2.1")}
-                            </p>
-                            <p>{t("me.experience3")}<br />
-                                {t("me.experience3.1")}
-                            </p>
+                        <div className='d-flex flex-wrap justify-content-between '>
+                            <div className='experience'>
+                                <h2>{t("me.experience")}</h2>
+                                <p>{t("me.experience2")}<br />
+                                    {t("me.experience2.1")}
+                                </p>
+                                <p>{t("me.experience3")}<br />
+                                    {t("me.experience3.1")}
+                                </p>
+                            </div>
+
+                             <div className="card">
+                                <div className="card-body">
+                                    <h1 className="card-title">Currículo</h1>
+                                    <h2 className="card-subtitle mb-2 text-muted">Para mais informações, baixe meu currículo</h2>
+                                    <div className="d-flex justify-content-center">
+                                        <a href="/storage/Antonio_Lisboa_Full_Stack.pdf" download="Antonio_Lisboa_Full_Stack.pdf" className="btn btn-white btn-animate gradient-shadow-2 mt-1"> 
+                                            Dowload <i className="bi bi-download ms-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
 

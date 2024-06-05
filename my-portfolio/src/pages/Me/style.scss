@@ -47,6 +47,9 @@
                 }
 
                 .experience {
+                    background-color: #f3f3f3b3;
+                    border-radius: 10px;
+                    padding: 1em;
                     h2 {
                         margin-bottom: 1rem;
                     }
@@ -89,4 +92,56 @@
     .MongoDB { background-color: #47a248; }
     .SCRUM { background-color: #5a9; }
     .FIGMA { background-color: #f24e1e; }
+}
+
+.right-column .card{
+    background-color: #00758f;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: 18em;
+    h1{
+        font-size: 2em;
+        color: #ffff;
+    }
+    h2{
+        font-size: 1.5em;
+        color: #ffff;
+    }
+}
+
+
+/* Media query para telas médias */
+@media (max-width: 1400px) {
+    .experience {
+        width: 19em; /* Reduzindo o tamanho da fonte para telas médias */
+        margin-right: -40px;
+        padding: 3em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .right-column .card{
+        transform: scale(0.8);
+        margin-inline: -50px;
+    }
+    .experience {
+        margin-top: -5px;
+        transform: scale(0.8);
+        margin-inline: -30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .right-column .card{
+        transform: scale(1);
+        margin-inline: 0px;
+        margin: auto;
+    }
+    .experience {
+        transform: scale(1);
+        margin-inline: 0px;
+        margin: auto;
+    }
+
 }
