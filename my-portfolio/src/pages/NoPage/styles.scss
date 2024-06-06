@@ -1,0 +1,23 @@
+.no-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .no-page-container h1 {
+    font-size: 6em;
+    margin-bottom: 0.5em;
+    color: #dc3545;
+  }
+  
+  .no-page-container p {
+    font-size: 1.5em;
+    color: #343a40;
+  }
+  .gohome{
+    font-size: 1.5em;
+  }

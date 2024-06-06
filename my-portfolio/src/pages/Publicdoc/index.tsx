@@ -71,7 +71,7 @@ const Publicdoc: React.FC = () => {
                   style={{ width: '100%' }} // Use width 100% to make it responsive
                 ></textarea>
               </div>
-              <div className="text-center">
+              <div className="text-center button">
                 <button className="btn btn-primary me-2" onClick={handleWriteContent}>
                   Write
                 </button>
