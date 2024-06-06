@@ -7,6 +7,7 @@ import './App.scss';
 import NavBar from './components/Layout/NavBar';
 import Footer from './components/Layout/Footer';
 import ScrollToTop from './ts/ScrollTop';
+import VisitorLogger from './components/VisitorLogger/VisitorLogger';
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
   return (
     <div className='App'>
       <ScrollToTop/>
-
+      <VisitorLogger/>
       <NavBar/>
       <Outlet/>
       <Footer/>

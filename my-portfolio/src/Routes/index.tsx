@@ -9,6 +9,7 @@ import Cursos from '../pages/Cursos/index.tsx';
 import Project from '../pages/Projects/Project/index.tsx';
 import HubProjects from '../pages/Projects/HubProjects/index.tsx';
 import Contact from '../pages/Contact/index.tsx';
+import Publicdoc from '../pages/Publicdoc/index.tsx';
 
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: '/project',
         element: <HubProjects />,
+      },
+      {
+        path: '/blog',
+        element: <Publicdoc/>,
       },
       {
         path: '/project/:id',

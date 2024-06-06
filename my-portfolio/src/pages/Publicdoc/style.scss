@@ -1,0 +1,12 @@
+.publicDoc textarea {
+    width: 100%; /* Ensure textareas take full width */
+    max-width: 50em; /* Set a maximum width for larger screens */
+
+  }
+
+.publicDoc  .text-center {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Add some space between buttons */
+  }
+  
