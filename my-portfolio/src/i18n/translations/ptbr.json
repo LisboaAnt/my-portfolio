@@ -47,6 +47,34 @@
         "Footer": {
             "companyName": "Antônio Lisboa",
             "rightsReserved": "Todos os direitos reservados."
+        },
+
+        "project":{
+            "title":"Meus Projetos"
+        },
+        
+        "projects": {
+            "project1":{
+                "title": "Calendário",
+                "description": "Um curso do React Big Calendar via youtube"
+            },
+            "project2":{
+                "title": "Projeto 2",
+                "description": "Descrição do Projeto 2"
+            },
+            "project3":{
+                "title": "Projeto 3",
+                "description": "Descrição do Projeto 3"
+            },
+            "project4":{
+                "title": "Projeto 4",
+                "description": "Descrição do Projeto 4"
+            },
+            "project5":{
+                "title": "Projeto 5",
+                "description": "Descrição do Projeto 5"
+            }
         }
+          
     }
 }

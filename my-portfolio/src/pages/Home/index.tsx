@@ -15,7 +15,7 @@ function Home() {
                         <h1 className="description">{t("home.description")}</h1>
                         <h4 className='description2'>{t("home.description2")}</h4>
 
-                        <div className="text-box mt-3 pt-3">
+                        <div className="text-box mt-3 pt-3 sombra">
                             <Link to="/contact" className="btn btn-white btn-animate gradient-shadow-2 mt-5"> 
                                 {t("home.button")}
                             </Link>

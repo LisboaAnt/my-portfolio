@@ -44,6 +44,10 @@
             }
         },
 
+        "projects":{
+            "title":"My Projects"
+        },
+
         "Footer": {
             "companyName": "Antônio Lisboa",
             "rightsReserved": "All rights reserved."

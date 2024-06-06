@@ -52,7 +52,7 @@ const NavMenu: React.FC = () => {
               <Link to="/contact" onClick={handleLogoClick}><i className="bi bi-envelope gray"></i>{t("NavBar.DownMenu.contact")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item ">
-              <Link to="/work" onClick={handleLogoClick}><i className="bi bi-journal-code green"></i>{t("NavBar.DownMenu.projects")}</Link>
+              <Link to="/projects" onClick={handleLogoClick}><i className="bi bi-journal-code green"></i>{t("NavBar.DownMenu.projects")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
               <Link to="/courses" onClick={handleLogoClick}><i className="bi bi-youtube red"></i>{t("NavBar.DownMenu.courses")}</Link>

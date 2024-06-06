@@ -1,0 +1,46 @@
+.list-projects{
+    width: auto;
+    background-color: rgb(245, 245, 245);
+    padding: 2em;
+    margin-inline: 2em;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 500px) {
+    .list-projects{
+        padding: 0em;
+    }
+
+}
+
+.fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in-out;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+  }
+  
+  .container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .component {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  

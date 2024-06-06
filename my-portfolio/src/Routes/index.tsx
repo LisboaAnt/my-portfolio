@@ -35,15 +35,15 @@ const router = createBrowserRouter([
         element: <Cursos />,
       },
       {
-        path: '/project',
-        element: <HubProjects />,
-      },
-      {
         path: '/blog',
         element: <Publicdoc/>,
       },
       {
-        path: '/project/:id',
+        path: '/projects',
+        element: <HubProjects />,
+      },
+      {
+        path: '/projects/:id',
         element: <Project />,
       },
     ],
