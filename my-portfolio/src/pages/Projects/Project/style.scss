@@ -1,0 +1,49 @@
+
+
+.imgproject{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .card-img-top{
+        border-radius: 10px;
+    }
+}
+.linkproject {
+    .btn:link,
+    .btn:visited {
+        background-color: #00000030;
+        padding: 15px 40px;
+        margin: 50px;
+        border-radius: 20px;
+        transition: all .5s;
+    }
+    .btn:hover {
+        background-color: #173eff0f;
+          transform: translateY(-3px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+  }
+  
+  .SectionTecnologias{
+    margin-bottom: 10em;
+  }
+
+  .youtube {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    
+    iframe {
+        width: 100%;
+        max-width: 560px; /* Tamanho máximo para telas grandes */
+        height: 315px; /* Altura padrão */
+        border: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .youtube iframe {
+        max-width: 100%;
+        height: calc(100vw * 0.5625); /* Mantém a proporção 16:9 */
+    }
+}
