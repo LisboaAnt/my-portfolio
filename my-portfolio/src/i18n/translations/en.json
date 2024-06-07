@@ -43,14 +43,39 @@
                 "email":"Invalid email"
             }
         },
-
-        "projects":{
-            "title":"My Projects"
-        },
-
+        
         "Footer": {
             "companyName": "Antônio Lisboa",
             "rightsReserved": "All rights reserved."
+        },
+
+        "project":{
+            "title":"My Projects"
+        },
+
+        "projects": {
+            "project1":{
+                "title": "Calendar",
+                "description": "A React Big Calendar course via YouTube"
+            },
+            "project2":{
+                "title": "Projeto 2",
+                "description": "Descrição do Projeto 2"
+            },
+            "project3":{
+                "title": "Projeto 3",
+                "description": "Descrição do Projeto 3"
+            },
+            "project4":{
+                "title": "Projeto 4",
+                "description": "Descrição do Projeto 4"
+            },
+            "project5":{
+                "title": "Projeto 5",
+                "description": "Descrição do Projeto 5"
+            }
         }
+
+
     }
 }

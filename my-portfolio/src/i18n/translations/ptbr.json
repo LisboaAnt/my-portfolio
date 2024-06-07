@@ -50,13 +50,21 @@
         },
 
         "project":{
-            "title":"Meus Projetos"
+            "title":"Meus Projetos",
+            "technologies": "Tecnologias Utilizadas",
+            "click": "Clique aqui para ir a página do projeto"
         },
         
         "projects": {
             "project1":{
                 "title": "Calendário",
-                "description": "Um curso do React Big Calendar via youtube"
+                "description": "Um curso do React Big Calendar via youtube",
+                "text": "Este projeto tem como objetivo orientá-lo no aproveitamento do poder do React Big Calendar por meio de nossa abrangente série de tutoriais no YouTube. Quer você seja um desenvolvedor iniciante ou experiente, acompanhe para aprender tudo, desde o básico até a personalização avançada.",
+                "link": "https://lisboaant.github.io/React-Big-Calendar-Tutorial/",
+                "youtube":"https://www.youtube.com/playlist?list=PLr7kJYXyKg0Z4e_mdEUOchEePCunPMA_n",
+                "technologies": ["REACT", "Bootstrap", "Jscript", "FIGMA"],
+                "photo": "/img/project1.png"
+
             },
             "project2":{
                 "title": "Projeto 2",
