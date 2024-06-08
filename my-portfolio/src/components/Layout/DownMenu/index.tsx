@@ -46,19 +46,19 @@ const NavMenu: React.FC = () => {
         <div className="background-linear-gradient text-center menuIsOpen gradient-shadow">
           <ul className="nav-menu-content">
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/me" onClick={handleLogoClick}><i className="bi bi-info-circle"></i>{t("NavBar.DownMenu.about")}</Link>
+              <Link to="/my-portfolio/me" onClick={handleLogoClick}><i className="bi bi-info-circle"></i>{t("NavBar.DownMenu.about")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/contact" onClick={handleLogoClick}><i className="bi bi-envelope gray"></i>{t("NavBar.DownMenu.contact")}</Link>
+              <Link to="/my-portfolio/contact" onClick={handleLogoClick}><i className="bi bi-envelope gray"></i>{t("NavBar.DownMenu.contact")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item ">
-              <Link to="/projects" onClick={handleLogoClick}><i className="bi bi-journal-code green"></i>{t("NavBar.DownMenu.projects")}</Link>
+              <Link to="/my-portfolio/projects" onClick={handleLogoClick}><i className="bi bi-journal-code green"></i>{t("NavBar.DownMenu.projects")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/courses" onClick={handleLogoClick}><i className="bi bi-youtube red"></i>{t("NavBar.DownMenu.courses")}</Link>
+              <Link to="/my-portfolio/courses" onClick={handleLogoClick}><i className="bi bi-youtube red"></i>{t("NavBar.DownMenu.courses")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/blog" onClick={handleLogoClick}><i className="bi bi-journal purple"></i>Blog</Link>
+              <Link to="/my-portfolio/blog" onClick={handleLogoClick}><i className="bi bi-journal purple"></i>Blog</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
               <a href="https://www.linkedin.com/in/antonio-lisboa-de-carvalho-b5a5a4194/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin blue"></i>Linkedin</a>

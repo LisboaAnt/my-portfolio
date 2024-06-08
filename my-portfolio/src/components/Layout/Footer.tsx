@@ -18,11 +18,11 @@ const Footer = React.memo(() => {
     <footer className="footer bg-white text-center py-3">
       <div className="container">
         <ul className="list-inline">
-          <li className="list-inline-item"><Link onClick={handleLogoClick} to="/" className='blackH gradient-shadow-3'>{t("Inicio")}</Link></li>
-          <li className="list-inline-item"><Link onClick={handleLogoClick} to="/me" className='grayH'>{t("Sobre")}</Link></li>
-          <li className="list-inline-item"><Link onClick={handleLogoClick} to="/contact" className='tealH'>{t("Contato")}</Link></li>
-          <li className="list-inline-item"><Link onClick={handleLogoClick} to="/projects" className='greenH'>{t("Projetos")}</Link></li>
-          <li className="list-inline-item"><Link onClick={handleLogoClick} to="/blog" className='yellowH'>{t("Blog")}</Link></li>
+          <li className="list-inline-item"><Link onClick={handleLogoClick} to="/my-portfolio/" className='blackH gradient-shadow-3'>{t("Inicio")}</Link></li>
+          <li className="list-inline-item"><Link onClick={handleLogoClick} to="/my-portfolio/me" className='grayH'>{t("Sobre")}</Link></li>
+          <li className="list-inline-item"><Link onClick={handleLogoClick} to="/my-portfolio/contact" className='tealH'>{t("Contato")}</Link></li>
+          <li className="list-inline-item"><Link onClick={handleLogoClick} to="/my-portfolio/projects" className='greenH'>{t("Projetos")}</Link></li>
+          <li className="list-inline-item"><Link onClick={handleLogoClick} to="/my-portfolio/blog" className='yellowH'>{t("Blog")}</Link></li>
           <li className="list-inline-item"><Link onClick={handleLogoClick} to="https://linkedin.com" target="_blank" className='blueH'>{t("Linkedin")}</Link></li>
           <li className="list-inline-item"><Link onClick={handleLogoClick} to="https://github.com" target="_blank" className='blackH'>{t("Github")}</Link></li>
           <li className="list-inline-item redH"><Link onClick={handleLogoClick} to="https://www.youtube.com/@antoniolisboa3897/videos" target="_blank" className='redH'>{t("Youtube")}</Link></li>

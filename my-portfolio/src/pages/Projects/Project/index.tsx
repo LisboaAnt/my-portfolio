@@ -45,7 +45,7 @@ const Project = () => {
                         <div className='right-column justify-content-center'>
                             <div className="py-3 px-4">
                                 <div className="imgproject d-none d-lg-block">
-                                    <img src={t("projects.project" + id +".photo")} className="card-img-top" alt="Project img" />
+                                    <img src={"/my-portfolio/"+t("projects.project" + id +".photo")} className="card-img-top" alt="Project img" />
                                 </div>
                             </div>
 

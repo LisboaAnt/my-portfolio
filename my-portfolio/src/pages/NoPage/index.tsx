@@ -6,7 +6,7 @@ function NoPage() {
     <div className="no-page-container">
       <h1>404</h1>
       <p>Página não implementada</p>
-      <Link to="/" className='btn gohome'> Voltar para Home</Link>
+      <Link to="/my-portfolio/" className='btn gohome'> Voltar para Home</Link>
     </div>
   );
 }

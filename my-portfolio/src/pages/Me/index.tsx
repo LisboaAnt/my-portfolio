@@ -19,7 +19,7 @@ function Me() {
 
                         <div className="left-column d-none d-lg-block">
                             <div className="photo">
-                                <img src="/img/Lisboa/LisboaPerfil.png" alt="Foto Anntônio Lisboa" className="profile-photo" />
+                                <img src="/my-portfolio/img/Lisboa/LisboaPerfil.png" alt="Foto Anntônio Lisboa" className="profile-photo" />
                             </div>
 
                             <div className='photo'>

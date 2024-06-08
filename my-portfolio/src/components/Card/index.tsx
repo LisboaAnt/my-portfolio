@@ -14,9 +14,9 @@ const CardProject: React.FC<CardProjectProps> = ({ title, description, imageUrl,
         <div className='props'>
             <div className="card">
                 <div className="image-container">
-                    <img src={imageUrl} className="card-img-top" alt="Project" />
+                    <img src={"/my-portfolio/"+imageUrl} className="card-img-top" alt="Project" />
                     <div className="overlay">
-                        <Link to={index + 1 +""} className="btn btn-white btn-animate">Ver Detalhes</Link>
+                        <Link to={"/my-portfolio/projects/"+( 1+ index) } className="btn btn-white btn-animate">Ver Detalhes</Link>
                     </div>
                 </div>
                 <div className="card-body">

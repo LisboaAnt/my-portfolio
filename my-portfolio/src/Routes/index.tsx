@@ -14,36 +14,36 @@ import Publicdoc from '../pages/Publicdoc/index.tsx';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/my-portfolio/',
     element: <App />,
     errorElement: <NoPage />,
     children: [
       {
-        path: '/',
+        path: '/my-portfolio/',
         element: <Home/>,
       },
       {
-        path: '/me',
+        path: '/my-portfolio/me',
         element: <Me/>
       },
       {
-        path: '/contact',
+        path: '/my-portfolio/contact',
         element: <Contact/>,
       },
       {
-        path: '/cursos',
+        path: '/my-portfolio/cursos',
         element: <Cursos />,
       },
       {
-        path: '/blog',
+        path: '/my-portfolio/blog',
         element: <Publicdoc/>,
       },
       {
-        path: '/projects',
+        path: '/my-portfolio/projects',
         element: <HubProjects />,
       },
       {
-        path: '/projects/:id',
+        path: '/my-portfolio/projects/:id',
         element: <Project />,
       },
     ],
