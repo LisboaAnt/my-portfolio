@@ -55,29 +55,79 @@
             "click": "Project page"
         },
 
+
         "projects": {
-            "project1":{
+            "project1": {
                 "title": "Calendar",
-                "description": "A React Big Calendar course via YouTube"
+                "description": "A course on React Big Calendar via YouTube",
+                "text": "This project aims to guide you in harnessing the power of React Big Calendar through our comprehensive YouTube tutorial series. Whether you are a beginner or an experienced developer, follow along to learn everything from the basics to advanced customization.",
+                "link": "https://lisboaant.github.io/React-Big-Calendar-Tutorial/",
+                "youtube": "https://youtu.be/jO0w252GfAc?si=xN2O4X4cUlngPjuC",
+                "technologies": ["REACT", "Bootstrap", "Jscript", "FIGMA"],
+                "photo": "/img/projects/project1.png",
+                "status": "Completed🟢"
             },
-            "project2":{
-                "title": "Projeto 2",
-                "description": "Descrição do Projeto 2"
+            "project2": {
+                "title": "OpenGL Computer Graphics",
+                "description": "A course on OpenGL with Python via YouTube",
+                "text": "This repository contains two main projects developed using OpenGL and Python, focused on computer graphics. Both projects are independent and represent different aspects and complexities of computer graphics.",
+                "link": "https://github.com/LisboaAnt/OpenGLPython",
+                "youtube": "https://youtu.be/yaSgU_XS56M",
+                "technologies": ["Python", "OpenGL"],
+                "photo": "/img/projects/project2.png",
+                "status": "Completed🟢"
             },
-            "project3":{
-                "title": "Projeto 3",
-                "description": "Descrição do Projeto 3"
+            "project3": {
+                "title": "Turtle Game",
+                "description": "A game in Python developed with Turtle",
+                "text": "This game was developed for the FUP course, starting the experience with Python and games.",
+                "link": "https://github.com/LisboaAnt/Turtle-game-FUP",
+                "youtube": "https://youtu.be/ImY4Rq1fjeY?si=Pnpz1hzYpookiEyn",
+                "technologies": ["Python", "Turtle"],
+                "photo": "/img/projects/project3.png",
+                "status": "Completed🟢"
             },
-            "project4":{
-                "title": "Projeto 4",
-                "description": "Descrição do Projeto 4"
+            "project4": {
+                "title": "YouTube Shorts to Text AI",
+                "description": "Convert YouTube Shorts into text",
+                "text": "This project is a web application that uses artificial intelligence to convert YouTube Shorts into text, offering automatic subtitles.",
+                "link": "https://github.com/LisboaAnt/YouTube-Shorts-to-Text-IA-Powered-Video-Transcription",
+                "youtube": "",
+                "technologies": ["HTML", "CSS", "Node", "OpenAI", "JavaScript"],
+                "photo": "/img/projects/project4.png",
+                "status": "Completed🟢"
             },
-            "project5":{
-                "title": "Projeto 5",
-                "description": "Descrição do Projeto 5"
+            "project5": {
+                "title": "Simple Bootstrap Page",
+                "description": "Responsive site using the Bootstrap 5 framework",
+                "text": "The project developed during the bootcamp is a responsive site using the Bootstrap 5 framework. The site features various sections such as home page, about us section, portfolio, testimonials, and contact form.",
+                "link": "https://lisboaant.github.io/simple-page-with-Bootstrap-5/",
+                "youtube": "https://youtu.be/4sosXZsdy-s?si=GxftZm5RU8it8ok4",
+                "technologies": ["HTML", "Bootstrap", "JavaScript"],
+                "photo": "/img/projects/project5.png",
+                "status": "Completed🟢"
+            },
+            "project6": {
+                "title": "Old Computer",
+                "description": "Custom software for the SESCOMP event",
+                "text": "The system simulates an old computer from the Cold War era, where the user needs to solve challenges to access vital information about a terrorist attack plan. The computer has three passwords that must be discovered within a limited time, while the user faces challenges related to Cold War history.",
+                "link": "https://github.com/LisboaAnt/Simulacao_Computador_Antigo_SESCOMP",
+                "youtube": "",
+                "technologies": ["Python"],
+                "photo": "/img/projects/project6.png",
+                "status": "Completed🟢"
+            },
+            "project7": {
+                "title": "Java Project",
+                "description": "A Java project to explore OOP concepts",
+                "text": "This is a Java project for article submission, created in collaboration with a team. We used JavaFX for the graphical interface, providing a user-friendly and interactive experience. During development, we followed an MVC methodology, starting with the definition of system requirements to ensure all necessary functionalities were covered.",
+                "link": "https://github.com/LisboaAnt/POO_Software_Project",
+                "youtube": "",
+                "technologies": ["Java"],
+                "photo": "/img/projects/project7.png",
+                "status": "Completed🟢"
             }
         }
-
-
+        
     }
 }

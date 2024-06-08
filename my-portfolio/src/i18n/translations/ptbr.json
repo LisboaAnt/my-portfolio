@@ -55,6 +55,7 @@
             "click": "Página do projeto"
         },
         
+        
         "projects": {
             "project1":{
                 "title": "Calendário",
@@ -108,13 +109,23 @@
                 "status": "Concluído🟢"
             },
             "project6":{
-                "title": "Simulador de Computador Antigo",
+                "title": "Computador Antigo",
                 "description": "Software sob demanda para o evento SESCOMP",
                 "text": "O sistema simula um computador antigo da era da Guerra Fria, onde o usuário precisa resolver desafios para acessar informações vitais sobre um plano de ataque terrorista. O computador possui três senhas que devem ser descobertas em um período de tempo limitado, enquanto o usuário enfrenta desafios relacionados à história da Guerra Fria.",
                 "link": "https://github.com/LisboaAnt/Simulacao_Computador_Antigo_SESCOMP",
                 "youtube":"",
                 "technologies": ["Python"],
                 "photo": "/img/projects/project6.png",
+                "status": "Concluído🟢"
+            },
+            "project7":{
+                "title": "Java Project",
+                "description": "Um projeto em Java para exploraros conceitos de POO",
+                "text": "Este é um projeto desenvolvido em Java para a submissão de artigos, criado em colaboração com uma equipe. Utilizamos JavaFX para a interface gráfica, proporcionando uma experiência de usuário amigável e interativa. Durante o desenvolvimento, seguimos uma metodologia MVC, começando pela definição dos requisitos do sistema para garantir que todas as funcionalidades necessárias fossem contempladas.",
+                "link": "https://github.com/LisboaAnt/POO_Software_Project",
+                "youtube":"",
+                "technologies": ["Java"],
+                "photo": "/img/projects/project7.png",
                 "status": "Concluído🟢"
             }
         }

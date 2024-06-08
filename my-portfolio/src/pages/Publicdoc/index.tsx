@@ -46,7 +46,7 @@ const Publicdoc: React.FC = () => {
   return (
     <div className='container publicDoc'>
       <div className='row justify-content-center'>
-        <div className='col-lg-8'>
+        <div className='col-lg-12'>
           {loading ? (
             <p>Loading...</p>
           ) : (
@@ -61,9 +61,9 @@ const Publicdoc: React.FC = () => {
                   style={{ width: '100%' }} // Use width 100% to make it responsive
                 ></textarea>
               </div>
-              <div className="mb-3">
+              <div className="mb-3 ">
                 <textarea
-                  className="form-control"
+                  className="form-control1"
                   value={newContent}
                   onChange={(e) => setNewContent(e.target.value)}
                   placeholder="Enter new content"
