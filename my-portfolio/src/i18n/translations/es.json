@@ -50,7 +50,9 @@
         },
 
         "project":{
-            "title":"Mis proyectos"
+            "title":"Mis proyectos",
+            "technologies": "Tecnologías utilizadas",
+            "click": "Página del proyecto"
         },
         
         "projects": {

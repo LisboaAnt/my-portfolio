@@ -1,12 +1,15 @@
 
 .props .card {
-        min-width: 300px; // Defina a largura fixa para os cards
+        width:100%; // Defina a largura fixa para os cards
         position: relative;
         overflow: hidden;
         margin-bottom: 40px;
+        min-width: 300px;
 
         .card-img-top {
             transition: opacity 0.3s ease;
+            height: 15em;
+            width: max;
         }
 
         .overlay {

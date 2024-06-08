@@ -8,9 +8,9 @@ const HubProjects = () =>{
         <div className="hubprojects mb-5">     
             <div className="d-flex justify-content-center">
                 <div className='containerProjects'>
-                    <div className='row justify-content-md-center mt-5'>
+                    <div className='row justify-content-md-center mt-4'>
                         <div className='text-center'>
-                            <h1>{t("project.title")}</h1>
+                            <h1 className='mb-4'>{t("project.title")}</h1>
                             <div>
                                     <ListCards/>
                             </div>

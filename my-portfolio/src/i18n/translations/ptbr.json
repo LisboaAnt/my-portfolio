@@ -52,7 +52,7 @@
         "project":{
             "title":"Meus Projetos",
             "technologies": "Tecnologias Utilizadas",
-            "click": "Clique aqui para ir a página do projeto"
+            "click": "Página do projeto"
         },
         
         "projects": {
@@ -61,26 +61,61 @@
                 "description": "Um curso do React Big Calendar via youtube",
                 "text": "Este projeto tem como objetivo orientá-lo no aproveitamento do poder do React Big Calendar por meio de nossa abrangente série de tutoriais no YouTube. Quer você seja um desenvolvedor iniciante ou experiente, acompanhe para aprender tudo, desde o básico até a personalização avançada.",
                 "link": "https://lisboaant.github.io/React-Big-Calendar-Tutorial/",
-                "youtube":"https://www.youtube.com/playlist?list=PLr7kJYXyKg0Z4e_mdEUOchEePCunPMA_n",
+                "youtube":"https://youtu.be/jO0w252GfAc?si=xN2O4X4cUlngPjuC",
                 "technologies": ["REACT", "Bootstrap", "Jscript", "FIGMA"],
-                "photo": "/img/project1.png"
+                "photo": "/img/projects/project1.png",
+                "status": "Concluído🟢"
 
             },
             "project2":{
-                "title": "Projeto 2",
-                "description": "Descrição do Projeto 2"
+                "title": "OpenGL Computação Gráfica",
+                "description": "Um curso de OpenGl com python via youtube",
+                "text": "Este repositório contém dois projetos principais desenvolvidos utilizando OpenGL e Python, focados em computação gráfica. Ambos os projetos são independentes e representam diferentes aspectos e complexidades da computação gráfica.",
+                "link": "https://github.com/LisboaAnt/OpenGLPython",
+                "youtube":"https://youtu.be/yaSgU_XS56M",
+                "technologies": ["Python", "OpenGL"],
+                "photo": "/img/projects/project2.png",
+                "status": "Concluído🟢"
             },
             "project3":{
-                "title": "Projeto 3",
-                "description": "Descrição do Projeto 3"
+                "title": "Jogo com Turtle",
+                "description": "Um jogo em python desenvolvido com turtle",
+                "text": "Este jogo foi densolvido para a cadeira de FUP, inicializando a experiência com pyhton e jogos.",
+                "link": "https://github.com/LisboaAnt/Turtle-game-FUP",
+                "youtube":"https://youtu.be/ImY4Rq1fjeY?si=Pnpz1hzYpookiEyn",
+                "technologies": ["Python", "Turtle"],
+                "photo": "/img/projects/project3.png",
+                "status": "Concluído🟢"
             },
             "project4":{
-                "title": "Projeto 4",
-                "description": "Descrição do Projeto 4"
+                "title": "YouTube Shorts to Text IA",
+                "description": "Converter vídeos curtos (Shorts) do YouTube em texto",
+                "text": "Este projeto é uma aplicação web que utiliza uma Inteligência Artificial para converter vídeos curtos (Shorts) do YouTube em texto, oferecendo legendas automaticamente.",
+                "link": "https://github.com/LisboaAnt/YouTube-Shorts-to-Text-IA-Powered-Video-Transcription",
+                "youtube":"",
+                "technologies": ["HTML", "CSS", "Node", "OpenAI", "JavaScript"],
+                "photo": "/img/projects/project4.png",
+                "status": "Concluído🟢"
             },
             "project5":{
-                "title": "Projeto 5",
-                "description": "Descrição do Projeto 5"
+                "title": "Pagina simples Bootstrap",
+                "description": "Site responsivo utilizando o framework Bootstrap 5",
+                "text": "O projeto desenvolvido durante o bootcamp é um site responsivo utilizando o framework Bootstrap 5. O site apresenta várias seções, como página inicial, seção de sobre nós, portfólio, depoimentos e formulário de contato.",
+                "link": "https://lisboaant.github.io/simple-page-with-Bootstrap-5/",
+                "youtube":"https://youtu.be/4sosXZsdy-s?si=GxftZm5RU8it8ok4",
+                "technologies": ["HTML", "Bootstrap", "JavaScript"],
+                "photo": "/img/projects/project5.png",
+                "status": "Concluído🟢"
+            },
+            "project6":{
+                "title": "Simulador de Computador Antigo",
+                "description": "Software sob demanda para o evento SESCOMP",
+                "text": "O sistema simula um computador antigo da era da Guerra Fria, onde o usuário precisa resolver desafios para acessar informações vitais sobre um plano de ataque terrorista. O computador possui três senhas que devem ser descobertas em um período de tempo limitado, enquanto o usuário enfrenta desafios relacionados à história da Guerra Fria.",
+                "link": "https://github.com/LisboaAnt/Simulacao_Computador_Antigo_SESCOMP",
+                "youtube":"",
+                "technologies": ["Python"],
+                "photo": "/img/projects/project6.png",
+                "status": "Concluído🟢"
             }
         }
           
