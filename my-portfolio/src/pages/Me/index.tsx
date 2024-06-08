@@ -70,7 +70,7 @@ function Me() {
                                 <h3>{t("me.technologies")}</h3>
                                 <div className='technologies-container '>
                                     {technologies.map((tech, index) => (
-                                        <span key={index} className={`technology ${tech}`}>{tech}</span>
+                                        <span key={index} className={`technology ${tech.toLowerCase()}`}>{tech}</span>
                                     ))}
                                 </div>
                             </div>
