@@ -15,8 +15,12 @@
                 .photo {
                     margin-bottom: 1rem;
                     text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: auto;
     
                     .profile-photo {
+                        overflow: hidden;
                         width: 250px;
                         height: 250px;
                         border-radius: 50%;
@@ -95,6 +99,7 @@
         color: #ffff;
     }
 }
+
 
 
 /* Media query para telas médias */

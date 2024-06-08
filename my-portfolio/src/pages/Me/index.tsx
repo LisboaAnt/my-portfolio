@@ -1,8 +1,23 @@
 import { useTranslation } from "react-i18next";
+import { useState, useEffect } from 'react';
 import './style.scss'; // Importação do arquivo de estilos
+import ImageLoader from '../../components/ImageLoader';
+
+
 
 function Me() {
     const { t } = useTranslation();
+    const [isLoading, setIsLoading] = useState(true);
+    const [imageUrl, setImageUrl] = useState('');
+  
+    useEffect(() => {
+      // Simule o carregamento da imagem após 2 segundos
+      setTimeout(() => {
+        setImageUrl('/my-portfolio/img/Lisboa/LisboaPerfil.png'); // Defina a URL da imagem real
+        setIsLoading(false);
+      }, 1);
+    }, []);
+  
 
     // Lista de tecnologias
     const technologies = [
@@ -19,7 +34,15 @@ function Me() {
 
                         <div className="left-column d-none d-lg-block">
                             <div className="photo">
-                                <img src="/my-portfolio/img/Lisboa/LisboaPerfil.png" alt="Foto Anntônio Lisboa" className="profile-photo" />
+                                <div >
+                                {isLoading ? (
+                                    <div className="profile-photo">
+                                    <ImageLoader />
+                                    </div>
+                                ) : (
+                                    <img src={imageUrl} className="profile-photo" alt="Foto Anntônio Lisboa" />
+                                )}
+                                </div>
                             </div>
 
                             <div className='photo'>

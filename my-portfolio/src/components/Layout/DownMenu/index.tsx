@@ -55,10 +55,10 @@ const NavMenu: React.FC = () => {
               <Link to="/my-portfolio/projects" onClick={handleLogoClick}><i className="bi bi-journal-code green"></i>{t("NavBar.DownMenu.projects")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/my-portfolio/courses" onClick={handleLogoClick}><i className="bi bi-youtube red"></i>{t("NavBar.DownMenu.courses")}</Link>
+              <Link to="/my-portfolio/blog" onClick={handleLogoClick}><i className="bi bi-journal purple"></i>Blog</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/my-portfolio/blog" onClick={handleLogoClick}><i className="bi bi-journal purple"></i>Blog</Link>
+              <Link to="/my-portfolio/courses" onClick={handleLogoClick}><i className="bi bi-youtube red"></i>{t("NavBar.DownMenu.courses")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
               <a href="https://www.linkedin.com/in/antonio-lisboa-de-carvalho-b5a5a4194/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin blue"></i>Linkedin</a>

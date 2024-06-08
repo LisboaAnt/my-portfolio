@@ -23,9 +23,9 @@ const Footer = React.memo(() => {
           <li className="list-inline-item"><Link onClick={handleLogoClick} to="/my-portfolio/contact" className='tealH'>{t("Contato")}</Link></li>
           <li className="list-inline-item"><Link onClick={handleLogoClick} to="/my-portfolio/projects" className='greenH'>{t("Projetos")}</Link></li>
           <li className="list-inline-item"><Link onClick={handleLogoClick} to="/my-portfolio/blog" className='yellowH'>{t("Blog")}</Link></li>
+          <li className="list-inline-item redH"><Link onClick={handleLogoClick} to="https://www.youtube.com/@antoniolisboa3897/videos" target="_blank" className='redH'>{t("Youtube")}</Link></li>
           <li className="list-inline-item"><Link onClick={handleLogoClick} to="https://linkedin.com" target="_blank" className='blueH'>{t("Linkedin")}</Link></li>
           <li className="list-inline-item"><Link onClick={handleLogoClick} to="https://github.com" target="_blank" className='blackH'>{t("Github")}</Link></li>
-          <li className="list-inline-item redH"><Link onClick={handleLogoClick} to="https://www.youtube.com/@antoniolisboa3897/videos" target="_blank" className='redH'>{t("Youtube")}</Link></li>
         </ul>
       </div>
       <div className="Footer-section">
