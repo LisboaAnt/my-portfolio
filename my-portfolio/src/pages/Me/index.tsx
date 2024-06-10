@@ -1,24 +1,22 @@
 import { useTranslation } from "react-i18next";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './style.scss'; // Importação do arquivo de estilos
 import ImageLoader from '../../components/ImageLoader';
 
-
-
 function Me() {
     const { t } = useTranslation();
-    const [isLoading, setIsLoading] = useState(true);
-    const [imageUrl, setImageUrl] = useState('');
-  
-    useEffect(() => {
-      // Simule o carregamento da imagem após 2 segundos
-      setTimeout(() => {
-        setImageUrl('/my-portfolio/img/Lisboa/LisboaPerfil.png'); // Defina a URL da imagem real
-        setIsLoading(false);
-      }, 1);
-    }, []);
-  
 
+    const [imageUrl] = useState('/my-portfolio/img/Lisboa/LisboaPerfil.png');
+    const [isLoading, setIsLoading] = useState(false);
+  
+    const handleImageLoad = () => {
+        setIsLoading(false);
+    };
+
+    const handleImageError = () => {
+        setIsLoading(false);
+    };
+  
     // Lista de tecnologias
     const technologies = [
         "REACT", "NEXT", "Bootstrap", "Jscript", "Tscript", "Python-Web",
@@ -40,7 +38,16 @@ function Me() {
                                     <ImageLoader />
                                     </div>
                                 ) : (
-                                    <img src={imageUrl} className="profile-photo" alt="Foto Anntônio Lisboa" />
+                                    <div className="photoContainer">
+                        
+                                        <img src={imageUrl} 
+                                        className="profile-photo" 
+                                        alt="Foto Anntônio Lisboa" 
+                                        onLoad={handleImageLoad} 
+                                        onError={handleImageError} 
+                                        style={{ display: isLoading ? 'none' : 'block' }} 
+                                        />
+                                    </div>
                                 )}
                                 </div>
                             </div>

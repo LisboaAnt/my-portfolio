@@ -33,6 +33,28 @@
 
 
 
+.irpara {
+    
+    span{
+        color: rgb(135, 135, 135);
+    }
+    .btn:link,
+    .btn:visited {
+        width: min;
+        padding: 15px 10px;
+        margin: 20px;
+        border-radius: 20px;
+        transition: all .5s;
+        overflow: hidden;
+    }
+    .btn:hover {
+        background-color: rgba(208, 208, 208, 0.541);
+          transform: translateY(-3px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+  }
+
 
 /* Media query para telas médias */
 @media (max-width: 768px) {

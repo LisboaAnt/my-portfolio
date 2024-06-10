@@ -6,14 +6,19 @@ import { useTranslation } from "react-i18next";
 
 // Importe o JSON aqui
 import json from '../Card/projectsa.json';
-const ListCards: React.FC = () => {
+
+interface Props {
+    maxCards?: number;
+}
+
+const ListCards: React.FC<Props> = ({ maxCards }) => {
     const { t } = useTranslation();
 
     return (
         <div className='list-projects'>
             <div className="row">
-                {json.projects.map((project: any, index: number) => (
-                    <div key={index} className=" col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                {json.projects.slice(0, maxCards).map((project: any, index: number) => (
+                    <div key={index} className=" col-sm-6 col-md-4 d-flex justify-content-center">
                         <CardProject 
                             title={t(project.title)}
                             description={t(project.description)}
