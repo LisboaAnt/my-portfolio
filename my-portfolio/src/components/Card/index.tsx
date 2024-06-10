@@ -43,9 +43,11 @@ const CardProject: React.FC<CardProjectProps> = ({ title, description, imageUrl,
                         onError={handleImageError} 
                         style={{ display: isLoading ? 'none' : 'block' }} 
                     />
-                    <div className="overlay">
+                    <Link to={`/my-portfolio/projects/${1 + index}`}className="overlay">
+                        <div className='button'>
                         <Link to={`/my-portfolio/projects/${1 + index}`} className="btn btn-white btn-animate">Ver Detalhes</Link>
-                    </div>
+                        </div>
+                    </Link>
                 </div>
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>

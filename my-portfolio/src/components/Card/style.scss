@@ -20,11 +20,15 @@
             width: 100%;
             height: 100%;
             background-color: rgba(0, 0, 0, 0.685);
+            transition: all .5s;
             display: flex;
             justify-content: center;
             align-items: center;
-            opacity: 0;
-            
+            opacity: 0;      
+            pointer-events: fill;   
+            .button{
+                pointer-events:all;   
+            }
         }
 
         &:hover .overlay {
@@ -60,7 +64,7 @@
     @media (max-width: 1000px) {
         .props .card{
             transform: scale(0.8);
-            margin-bottom: -50px;
+            margin-top: -30px;
         }
     }
     @media (max-width: 850px) {

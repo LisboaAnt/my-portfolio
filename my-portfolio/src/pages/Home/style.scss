@@ -16,21 +16,54 @@
 }
 
 
-/* Media query para telas médias */
-@media (max-width: 1268px) {
-    .Home .title {
-        font-size: 2em; /* Reduzindo o tamanho da fonte para telas médias */
+.sobreMimCurriculo {
+    .aboutme {
+        padding-inline: 1em;
+        text-align: start;
+        max-width: 50em;
+        min-width: 18em;
+        background-color: rgb(243, 243, 243);
+        border-radius: 10px;
+        font-size: 1.5em;
     }
 
-    .Home .description {
-        font-size: 3em; /* Reduzindo o tamanho da fonte para telas médias */
+    .card {
+        background-color: #00758f;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        height: 220px;
+        min-width: 18em;
+        max-width: 25em;
+
+        h1 {
+            font-size: 2em;
+            color: #ffff;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #ffff;
+        }
     }
 
-    .Home .description2 {
-        font-size: 1.5em; /* Reduzindo o tamanho da fonte para telas médias */
+    .link-container {
+        width: 11em;
+    }
+
+    .link-unstyled {
+        text-decoration: none !important;
+        color: inherit !important;
+    }
+    .link-unstyled h1 {
+        transition: color 0.3s ease; /* Adiciona a transição suave */
+        width: 5em;
+    }
+
+    .link-unstyled h1:hover {
+        color: #00758f;
     }
 }
-
 
 
 .irpara {
@@ -40,8 +73,9 @@
     }
     .btn:link,
     .btn:visited {
+        background-color: rgb(76, 76, 76);
         width: min;
-        padding: 15px 10px;
+        padding: 10px 10px;
         margin: 20px;
         border-radius: 20px;
         transition: all .5s;
@@ -57,6 +91,28 @@
 
 
 /* Media query para telas médias */
+@media (max-width: 1268px) {
+    .Home .title {
+        font-size: 2em; /* Reduzindo o tamanho da fonte para telas médias */
+    }
+
+    .Home .description {
+        font-size: 3em; /* Reduzindo o tamanho da fonte para telas médias */
+    }
+
+    .Home .description2 {
+        font-size: 1.5em; /* Reduzindo o tamanho da fonte para telas médias */
+    }
+}
+
+  /* Media query para telas médias */
+@media (min-width: 1800px) {
+    .sobreMimCurriculo {
+        padding-inline: 10em;
+    }
+}
+
+/* Media query para telas médias */
 @media (max-width: 768px) {
     .Home .title {
         font-size: 2em; /* Reduzindo o tamanho da fonte para telas médias */
@@ -69,6 +125,10 @@
     .Home .description2 {
         font-size: 1.5em; /* Reduzindo o tamanho da fonte para telas médias */
     }
+    .sobreMimCurriculo {
+        .aboutme {
+            font-size: 1em;
+        }}
 }
 
 /* Media query para telas pequenas */

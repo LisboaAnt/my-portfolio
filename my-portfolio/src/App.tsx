@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Outlet, useLocation } from 'react-router-dom';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { Outlet } from 'react-router-dom';
 
 import './App.scss';
 
@@ -12,12 +11,13 @@ import VisitorLogger from './components/VisitorLogger/VisitorLogger';
 
 function App() {
   const { i18n } = useTranslation();
-  const location = useLocation();
 
   useEffect(() => {
     const storedLanguage = localStorage.getItem('language');
     if (storedLanguage) {
+      const languagePrefix = storedLanguage.substring(0, 2); // Pegar os dois primeiros caracteres
       i18n.changeLanguage(storedLanguage);
+      document.documentElement.lang = languagePrefix; // Define a linguagem no elemento HTML
     }
   }, [i18n]);
 
@@ -26,11 +26,7 @@ function App() {
       <ScrollToTop />
       <VisitorLogger />
       <NavBar />
-      <TransitionGroup>
-        <CSSTransition key={location.key} classNames="fade" timeout={300}>
-          <Outlet />
-        </CSSTransition>
-      </TransitionGroup>
+      <Outlet />
       <Footer />
     </div>
   );

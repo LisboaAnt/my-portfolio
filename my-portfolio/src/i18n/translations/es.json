@@ -18,7 +18,9 @@
             "title": "Que pasa, soy ",
             "description": "Planifico, escribo y desarrollo aplicaciones web",
             "description2": "Me encantan los desafíos y siempre busco soluciones creativas.",
-            "button": "¡Contrátame!"  
+            "button": "¡Contrátame!",
+            "aboutme": "Sobre mí", 
+            "aboutme1": "Siempre me ha apasionado la tecnología y actualmente estoy dedicando tiempo a profundizar mis conocimientos en aplicaciones frontend, utilizando React y React Native. Me estoy especializando en esta área a través del uso de frameworks y bibliotecas como Next.js, entre otras."
         },
 
         "me":{

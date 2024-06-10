@@ -18,7 +18,9 @@
             "title": "hi there i'm ",
             "description": "I plan, write and develop web applications",
             "description2": "I love challenges and am always looking for creative solutions.",
-            "button": "Hire me!"
+            "button": "Hire me!",
+            "aboutme": "About me",
+            "aboutme1": "I've always been passionate about technology and am currently focusing on deepening my knowledge in front-end applications, using React and React Native. I'm specializing in this area through the use of frameworks and libraries like Next.js, among others."
         },
 
         "me":{

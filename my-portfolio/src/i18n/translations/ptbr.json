@@ -18,7 +18,9 @@
             "title": "E aí, eu sou o ",
             "description": "Planejo, escrevo e desenvolvo aplicações web",
             "description2": "Adoro desafios e estou sempre buscando soluções criativas.",
-            "button": "Me contrate!"
+            "button": "Me contrate!",
+            "aboutme":"Sobre mim",
+            "aboutme1":"Sempre fui apaixonado por tecnologia e atualmente estou me dedicando a aprofundar meus conhecimentos em aplicações voltadas para front-end, utilizando React e React Native. Estou me especializando nesta área através da utilização de frameworks e bibliotecas como Next.js, entre outras. "
         },
         
         "me":{
