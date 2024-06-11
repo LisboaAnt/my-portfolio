@@ -1,6 +1,7 @@
 # Meu Site Portfólio
 
 Bem-vindo ao README do meu site portfólio em construção! Este é o lugar onde estou construindo meu próprio espaço na web para exibir meus projetos, habilidades e experiência.
+- Link: [https://lisboaant.github.io/my-portfolio/](https://lisboaant.github.io/my-portfolio/)
 
 ## Sobre Este Site
 
@@ -23,8 +24,6 @@ Se você quiser contribuir para o desenvolvimento deste site, sinta-se à vontad
 
 Se você tiver perguntas, sugestões ou apenas quiser conversar, sinta-se à vontade para entrar em contato comigo através dos seguintes canais:
 
-- Email: [seuemail@example.com](mailto:seuemail@example.com)
-- LinkedIn: [Seu Nome](https://www.linkedin.com/in/seunome/)
-- Twitter: [@seunome](https://twitter.com/seunome)
+- Email: [antoniol.carvalho49@gmail.com](antoniol.carvalho49@gmail.com)
 
 Obrigado por visitar o README do meu site portfólio em construção!
