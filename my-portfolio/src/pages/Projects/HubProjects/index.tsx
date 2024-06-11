@@ -5,7 +5,7 @@ import ListCards from '../../../components/ListCards';
 const HubProjects = () =>{
     const { t } = useTranslation();
     return(
-        <div className="hubprojects mb-5">     
+        <div className="hubprojects mb-5 pb-5">     
             <div className="d-flex justify-content-center">
                 <div className='containerProjects'>
                     <div className='row justify-content-md-center mt-4'>

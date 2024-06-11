@@ -25,7 +25,15 @@ const CardProject: React.FC<CardProjectProps> = ({ title, description, imageUrl,
     const handleImageError = () => {
         setIsLoading(false);
     };
-  
+
+    // Verifica se algum campo está vazio
+    const isEmptyField = title.trim() === '' || description.trim() === '' || imageUrl.trim() === '';
+
+    // Se algum campo estiver vazio, não renderizar o card
+    if (isEmptyField) {
+        return null;
+    }
+
     return (
         <div className='props'>
             <div className="card">
@@ -43,9 +51,9 @@ const CardProject: React.FC<CardProjectProps> = ({ title, description, imageUrl,
                         onError={handleImageError} 
                         style={{ display: isLoading ? 'none' : 'block' }} 
                     />
-                    <Link to={`/my-portfolio/projects/${1 + index}`}className="overlay">
+                    <Link to={`/my-portfolio/projects/${1 + index}`} className="overlay">
                         <div className='button'>
-                        <Link to={`/my-portfolio/projects/${1 + index}`} className="btn btn-white btn-animate">Ver Detalhes</Link>
+                            <Link to={`/my-portfolio/projects/${1 + index}`} className="btn btn-white btn-animate">Ver Detalhes</Link>
                         </div>
                     </Link>
                 </div>

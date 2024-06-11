@@ -1,9 +1,9 @@
 {
     "projects": [
       {
-        "title": "projects.project1.title",
-        "description": "projects.project1.description",
-        "photo": "/img/projects/project1.png"
+        "title": "",
+        "description": "",
+        "photo": ""
       },
       {
         "title": "projects.project2.title",
@@ -34,6 +34,11 @@
         "title": "projects.project7.title",
         "description": "projects.project7.description",
         "photo": "/img/projects/project7.png"
+      },
+      {
+        "title": "projects.project8.title",
+        "description": "projects.project8.description",
+        "photo": "/img/projects/project1.png"
       }
     ]
   }

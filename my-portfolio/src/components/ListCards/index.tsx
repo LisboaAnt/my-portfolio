@@ -14,19 +14,26 @@ interface Props {
 const ListCards: React.FC<Props> = ({ maxCards }) => {
     const { t } = useTranslation();
 
+    // Obter os projetos, inverter a ordem e aplicar slice
+    const reversedProjects = [...json.projects].reverse();
+    const projects = reversedProjects.slice(0, maxCards);
+
     return (
         <div className='list-projects'>
             <div className="row">
-                {json.projects.slice(0, maxCards).map((project: any, index: number) => (
-                    <div key={index} className=" col-sm-6 col-md-4 d-flex justify-content-center">
-                        <CardProject 
-                            title={t(project.title)}
-                            description={t(project.description)}
-                            imageUrl={project.photo}
-                            index={index}
-                        />
-                    </div>
-                ))}
+                {projects.map((project: any, index: number) => {
+                    const invertedIndex = json.projects.length - reversedProjects.indexOf(project) - 1;
+                    return (
+                        <div key={index} className="col-sm-6 col-md-4 d-flex justify-content-center">
+                            <CardProject 
+                                title={`${t(project.title)}`}
+                                description={t(project.description)}
+                                imageUrl={project.photo}
+                                index={invertedIndex}
+                            />
+                        </div>
+                    );
+                })}
             </div>
         </div>
     );

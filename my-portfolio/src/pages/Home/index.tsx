@@ -34,7 +34,7 @@ function Home() {
                         <div className='row justify-content-center py-5 my-5'>
                             <div className='col-12 d-flex flex-wrap justify-content-around align-items-start sobreMimCurriculo'>
                                 
-                                <div className='col-md-6 col-8 aboutme mb-5 pb-2 '>
+                                <div className='col-md-7 col-8 aboutme mb-5 pb-2 '>
                                     <div className="link-container">
                                         <Link to={"/my-portfolio/me"} className="py-2 link-unstyled">
                                             <h1>{t("home.aboutme")}</h1>

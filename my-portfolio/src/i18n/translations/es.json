@@ -59,14 +59,7 @@
         
         "projects": {
             "project1": {
-                "title": "Calendario",
-                "description": "Un curso de React Big Calendar vía YouTube",
-                "text": "Este proyecto tiene como objetivo guiarte en el aprovechamiento del poder de React Big Calendar a través de nuestra serie de tutoriales en YouTube. Ya seas un desarrollador principiante o experimentado, sigue para aprender todo, desde lo básico hasta la personalización avanzada.",
-                "link": "https://lisboaant.github.io/React-Big-Calendar-Tutorial/",
-                "youtube": "https://youtu.be/jO0w252GfAc?si=xN2O4X4cUlngPjuC",
-                "technologies": ["REACT", "Bootstrap", "Jscript", "FIGMA"],
-                "photo": "/img/projects/project1.png",
-                "status": "Completado🟢"
+                
             },
             "project2": {
                 "title": "Gráficos por Computadora OpenGL",
@@ -126,6 +119,16 @@
                 "youtube": "",
                 "technologies": ["Java"],
                 "photo": "/img/projects/project7.png",
+                "status": "Completado🟢"
+            },
+            "project8": {
+                "title": "Calendario",
+                "description": "Un curso de React Big Calendar vía YouTube",
+                "text": "Este proyecto tiene como objetivo guiarte en el aprovechamiento del poder de React Big Calendar a través de nuestra serie de tutoriales en YouTube. Ya seas un desarrollador principiante o experimentado, sigue para aprender todo, desde lo básico hasta la personalización avanzada.",
+                "link": "https://lisboaant.github.io/React-Big-Calendar-Tutorial/",
+                "youtube": "https://youtu.be/jO0w252GfAc?si=xN2O4X4cUlngPjuC",
+                "technologies": ["REACT", "Bootstrap", "Jscript", "FIGMA"],
+                "photo": "/img/projects/project1.png",
                 "status": "Completado🟢"
             }
         }
