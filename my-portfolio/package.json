@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "private": false,
   "version": "1.0.0",
-  "homepage": "https://lisboaant.github.io/my-portfolio/",
+  "homepage": "https://antoniolisboa.site",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

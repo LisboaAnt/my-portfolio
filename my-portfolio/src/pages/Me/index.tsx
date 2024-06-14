@@ -6,7 +6,7 @@ import ImageLoader from '../../components/ImageLoader';
 function Me() {
     const { t } = useTranslation();
 
-    const [imageUrl] = useState('/my-portfolio/img/Lisboa/LisboaPerfil.png');
+    const [imageUrl] = useState('/img/Lisboa/LisboaPerfil.png');
     const [isLoading, setIsLoading] = useState(false);
   
     const handleImageLoad = () => {
@@ -87,7 +87,7 @@ function Me() {
                                         <h1 className="card-title">{t("me.curriculum")}</h1>
                                         <h2 className="card-subtitle mb-2 text-muted">{t("me.curriculum1")}</h2>
                                         <div className="d-flex justify-content-center ">
-                                            <a href="/my-portfolio/storage/Antonio_Lisboa_Full_Stack.pdf" download="Antonio_Lisboa_Full_Stack.pdf" className="btn btn-white btn-animate mb-1"> 
+                                            <a href="/storage/Antonio_Lisboa_Full_Stack.pdf" download="Antonio_Lisboa_Full_Stack.pdf" className="btn btn-white btn-animate mb-1"> 
                                                 Dowload <i className="bi bi-download ms-2"></i>
                                             </a>
                                         </div>

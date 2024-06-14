@@ -15,7 +15,7 @@ const CardProject: React.FC<CardProjectProps> = ({ title, description, imageUrl,
     const [loadingImageUrl, setLoadingImageUrl] = useState('');
 
     useEffect(() => {
-        setLoadingImageUrl(`/my-portfolio/${imageUrl}`);
+        setLoadingImageUrl(`/${imageUrl}`);
     }, [imageUrl]);
 
     const handleImageLoad = () => {
@@ -51,9 +51,9 @@ const CardProject: React.FC<CardProjectProps> = ({ title, description, imageUrl,
                         onError={handleImageError} 
                         style={{ display: isLoading ? 'none' : 'block' }} 
                     />
-                    <Link to={`/my-portfolio/projects/${1 + index}`} className="overlay">
+                    <Link to={`/projects/${1 + index}`} className="overlay">
                         <div className='button'>
-                            <Link to={`/my-portfolio/projects/${1 + index}`} className="btn btn-white btn-animate">Ver Detalhes</Link>
+                            <Link to={`/projects/${1 + index}`} className="btn btn-white btn-animate">Ver Detalhes</Link>
                         </div>
                     </Link>
                 </div>

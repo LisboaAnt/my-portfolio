@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from '../App.tsx';
-import NoPage from '../pages/NoPage/index.tsx';
+import NotFound from '../pages/NotFound';
 
 import Home from '../pages/Home/index.tsx';
 
@@ -14,36 +14,36 @@ import Publicdoc from '../pages/Publicdoc/index.tsx';
 
 const router = createBrowserRouter([
   {
-    path: '/my-portfolio/',
+    path: '/',
     element: <App />,
-    errorElement: <NoPage />,
+    errorElement: <NotFound />,
     children: [
       {
-        path: '/my-portfolio/',
+        path: '/',
         element: <Home/>,
       },
       {
-        path: '/my-portfolio/me',
+        path: '/me',
         element: <Me/>
       },
       {
-        path: '/my-portfolio/contact',
+        path: '/contact',
         element: <Contact/>,
       },
       {
-        path: '/my-portfolio/cursos',
+        path: '/cursos',
         element: <Cursos />,
       },
       {
-        path: '/my-portfolio/blog',
+        path: '/blog',
         element: <Publicdoc/>,
       },
       {
-        path: '/my-portfolio/projects',
+        path: '/projects',
         element: <HubProjects />,
       },
       {
-        path: '/my-portfolio/projects/:id',
+        path: '/projects/:id',
         element: <Project />,
       },
     ],
