@@ -10,7 +10,8 @@
                 "contact": "contacto",
                 "work": "trabajo",
                 "projects": "proyectos",
-                "courses":"YouTube"
+                "courses":"YouTube",
+                "publications": "Artículos"
             }
         },
 
@@ -26,7 +27,7 @@
         "me":{
             "hi": "Saludos, un poco sobre mi.",
             "technologies": "Tecnologías",
-            "about": "Siempre he sido apasionado por la tecnología y actualmente me estoy dedicando a profundizar mis conocimientos en aplicaciones orientadas al front-end, utilizando React y React Native. Me estoy especializando en esta área mediante el uso de frameworks y bibliotecas como Next.js, entre otros. Además, he tenido contacto con preprocesadores como SASS/SCSS, Tailwind CSS y Bootstrap. También tengo experiencia en la gestión de versiones de código utilizando Git/GitHub y Gitflow.", 
+            "about": "Mi nombre es Antonio Lisboa. Siempre he sido apasionado por la tecnología y actualmente me estoy dedicando a profundizar mis conocimientos en aplicaciones orientadas al front-end, utilizando React y React Native. Me estoy especializando en esta área mediante el uso de frameworks y bibliotecas como Next.js, entre otros. Además, he tenido contacto con preprocesadores como SASS/SCSS, Tailwind CSS y Bootstrap. También tengo experiencia en la gestión de versiones de código utilizando Git/GitHub y Gitflow.", 
             "about2": "Estoy cursando la carrera de Ciencias de la Computación en la UFC, donde tengo la oportunidad de expandir mis conocimientos y aplicarlos en proyectos prácticos. Con una amplia experiencia en bases de datos SQL y una sólida actuación como analista de datos en bases de datos NoSQL, incluyendo la realización de mini-cursos sobre el tema, también he desarrollado habilidades comunicativas a través de la participación en obras de teatro. A lo largo de mi trayectoria profesional, he adquirido habilidades valiosas como trabajo en equipo, proactividad, toma de decisiones y compromiso con los plazos.",
             "experience":"Experiencia profesional",
             "experience2":"Analista de Bases de Datos (MongoDB), NERDS, UFC","experience2.1":"Abril 2023 - Febrero 2024",

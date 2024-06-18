@@ -55,7 +55,7 @@ const NavMenu: React.FC = () => {
               <Link to="/projects" onClick={handleLogoClick}><i className="bi bi-journal-code green"></i>{t("NavBar.DownMenu.projects")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/blog" onClick={handleLogoClick}><i className="bi bi-journal purple"></i>Blog</Link>
+              <Link to="/publications" onClick={handleLogoClick}><i className="bi bi-journal purple"></i>{t("NavBar.DownMenu.publications")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
               <Link to="/courses" onClick={handleLogoClick}><i className="bi bi-youtube red"></i>{t("NavBar.DownMenu.courses")}</Link>

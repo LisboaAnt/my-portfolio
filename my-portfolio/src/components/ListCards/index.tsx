@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react';
 import CardProject from '../Card'; // Verifique o caminho correto do arquivo
 import './style.scss';
