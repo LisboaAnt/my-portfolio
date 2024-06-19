@@ -58,7 +58,7 @@ const NavMenu: React.FC = () => {
               <Link to="/publications" onClick={handleLogoClick}><i className="bi bi-journal purple"></i>{t("NavBar.DownMenu.publications")}</Link>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
-              <Link to="/courses" onClick={handleLogoClick}><i className="bi bi-youtube red"></i>{t("NavBar.DownMenu.courses")}</Link>
+              <a href="https://www.youtube.com/@antoniolisboa3897" target="_blank" rel="noopener noreferrer"><i className="bi bi-youtube red"></i>{t("NavBar.DownMenu.courses")}</a>
             </li>
             <li onClick={toggleMenu} className="nav-menu-content-item">
               <a href="https://www.linkedin.com/in/antonio-lisboa-de-carvalho-b5a5a4194/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin blue"></i>Linkedin</a>
