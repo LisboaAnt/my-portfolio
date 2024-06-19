@@ -1,6 +1,6 @@
 import './style.scss'
 import { useTranslation } from "react-i18next";
-import ListCards from '../../../components/ListCards';
+import ListCards from '../../../components/ListCardsProjects';
 
 const HubProjects = () =>{
     const { t } = useTranslation();
