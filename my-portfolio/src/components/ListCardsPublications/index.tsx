@@ -5,7 +5,7 @@ import './style.scss';
 import { useTranslation } from "react-i18next";
 
 // Importe o JSON aqui
-import json from '../CardProjects/projectsa.json';
+import json from '../CardPublications/publicacoes.json';
 
 import CardPublication from '../CardPublications'
 
@@ -21,16 +21,15 @@ const ListCardPublications: React.FC<ListCardPublicationsProps> = ({ maxCards })
     const projects = reversedProjects.slice(0, maxCards);
 
     return (
-        <div className='list-projects'>
-            <div className="row">
+        <div className='list-publication flex-column'>
+            <div className="row justify-content-center">
                 {projects.map((project: any, index: number) => {
                     const invertedIndex = json.projects.length - reversedProjects.indexOf(project) - 1;
                     return (
-                        <div key={index} className="col-sm-6 col-md-4 d-flex justify-content-center">
+                        <div key={index} className="col-sm-8 col-md-4 cards">
                             <CardPublication 
                                 title={`${t(project.title)}`}
                                 description={t(project.description)}
-                                imageUrl={project.photo}
                                 index={invertedIndex}
                             />
                         </div>

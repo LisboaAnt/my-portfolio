@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+            "title": "publications.publication1.title",
+            "description": "publications.publication1.description"
+        },      
+        {
+            "title": "publications.publication2.title",
+            "description": "publications.publication2.description"
+        }
+
+    ]
+}
+  

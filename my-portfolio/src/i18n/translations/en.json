@@ -132,6 +132,10 @@
                 "photo": "/img/projects/project1.png",
                 "status": "Completed🟢"
             }
+        },
+
+        "publication": {
+            "title": "Publications"
         }
         
     }
