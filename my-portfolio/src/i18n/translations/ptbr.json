@@ -142,14 +142,9 @@
 
         "publications":{
             "publication1":{
-                "title": "Faz o L",
-                "description": "Um curso de OpenGl com python via youtube",
-                "text": "Este repositório contém dois projetos principais desenvolvidos utilizando OpenGL e Python, focados em computação gráfica. Ambos os projetos são independentes e representam diferentes aspectos e complexidades da computação gráfica."
-            },
-            "publication2":{
-                "title": "Arroz",
-                "description": "Um curso de OpenGl com python via youtube",
-                "text": "Este repositório contém dois projetos principais desenvolvidos utilizando OpenGL e Python, focados em computação gráfica. Ambos os projetos são independentes e representam diferentes aspectos e complexidades da computação gráfica."
+                "title": "Exemplo 1",
+                "description": "Description example Description example Description example",
+                "text": "Text example Text example Text example Text example."
             }
         }
         
