@@ -1,0 +1,51 @@
+.publication .card {
+    overflow: hidden;
+    margin-bottom: 40px;
+    min-height: 10em;
+
+
+    .card-img-top {
+        transition: opacity 0.3s ease;
+        height: 15em;
+        width: max;
+        overflow: hidden;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.685);
+        transition: all .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;      
+        pointer-events: fill;   
+        .button{
+            pointer-events:all;   
+        }
+    }
+
+    &:hover .overlay {
+        opacity: 1;
+    }
+
+    .btncard {
+        color: inherit;
+        text-decoration: none;
+        font-weight: bold;
+        display: none;
+        &:hover {
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+
+    &:hover .btncard {
+        display: block;
+    }
+
+}

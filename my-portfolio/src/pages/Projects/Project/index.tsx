@@ -9,13 +9,13 @@ const Project = () => {
     const technologies = t("projects.project" + id + ".technologies", { returnObjects: true });
     const youtubeLink = t("projects.project" + id + ".youtube");
 
-    function isYouTubeLink(url:any) {
+    function isYouTubeLink(url: string) {
         const youtubePattern = /^(https?:\/\/)?(www\.)?(youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]+)/;
         return youtubePattern.test(url);
     }
 
-    function extractYouTubeVideoId(url:any) {
-        const match = url.match(/(?:youtube\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|e(?:mbed)?)\/|\S*?[?&]v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+    function extractYouTubeVideoId(url: string) {
+        const match = url.match(/(?:youtube\.com\/(?:[^/\n\s]+\/\S+\/|(?:v|e(?:mbed)?)\/|\S*?[?&]v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
         return match ? match[1] : null;
     }
 
@@ -45,7 +45,7 @@ const Project = () => {
                         <div className='right-column justify-content-center'>
                             <div className="py-3 px-4">
                                 <div className="imgproject d-none d-lg-block">
-                                    <img src={"/"+t("projects.project" + id +".photo")} className="card-img-top" alt="Project img" />
+                                    <img src={t("projects.project" + id +".photo")} className="card-img-top" alt="Project img" />
                                 </div>
                             </div>
 

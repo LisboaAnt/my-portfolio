@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
 import './style.scss'; // Importação do arquivo de estilos
-import ListCards from "../../components/ListCards";
+import ListCards from "../../components/ListCardsProjects";
 
 function Home() {
     const { t } = useTranslation();

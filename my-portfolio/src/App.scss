@@ -42,6 +42,20 @@
 .scrum { background-color: #5a9; }
 .figma { background-color: #f24e1e; }
 
+//
+
+.text-justify {
+  text-align: justify;
+}
+
+
+.text-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
 
 // Cor do texto
 .green {

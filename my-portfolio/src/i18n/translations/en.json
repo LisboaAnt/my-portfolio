@@ -10,7 +10,8 @@
                 "contact": "Contact",
                 "work": "Work",
                 "projects": "Projects",
-                "courses": "YouTube"
+                "courses": "YouTube",
+                "publications": "Publications"
             }
         },
         
@@ -26,7 +27,7 @@
         "me":{
             "hi": "Greetings, a little about me.",
             "technologies": "Technologies",
-            "about": "I have always been passionate about technology and currently I am dedicating myself to deepening my knowledge in front-end oriented applications, using React and React Native. I am specializing in this area through the use of frameworks and libraries like Next.js, among others. Additionally, I have had contact with preprocessors such as SASS/SCSS, Tailwind CSS, and Bootstrap. I also have experience in code versioning using Git/GitHub and Gitflow.",
+            "about": "My name is Antônio Lisboa. I have always been passionate about technology and currently I am dedicating myself to deepening my knowledge in front-end oriented applications, using React and React Native. I am specializing in this area through the use of frameworks and libraries like Next.js, among others. Additionally, I have had contact with preprocessors such as SASS/SCSS, Tailwind CSS, and Bootstrap. I also have experience in code versioning using Git/GitHub and Gitflow.",
             "about2": "I am studying Computer Science at UFC, where I have the opportunity to expand my knowledge and apply it in practical projects. With extensive experience in SQL databases and a strong performance as a data analyst in NoSQL databases, including the completion of mini-courses on the subject, I have also developed communication skills through participation in theatrical plays. Throughout my professional journey, I have acquired valuable skills such as teamwork, proactivity, decision-making, and commitment to deadlines.",
             "experience":"Professional experience",
             "experience2":"Database Analyst (MongoDB), NERDS, UFC","experience2.1":"April 2023 - February 2024",
@@ -131,6 +132,10 @@
                 "photo": "/img/projects/project1.png",
                 "status": "Completed🟢"
             }
+        },
+
+        "publication": {
+            "title": "Publications"
         }
         
     }
