@@ -5,10 +5,11 @@ import './style.scss';
 interface ListCardPublicationsProps {
     title: string;
     description: string;
+    text: string;
     index: number;
 }
 
-const ListCardPublications: React.FC<ListCardPublicationsProps> = ({ title, description, index }) => {
+const ListCardPublications: React.FC<ListCardPublicationsProps> = ({ title, description, text, index }) => {
 
     // Verifica se algum campo está vazio
     const isEmptyField = title.trim() === '' || description.trim() === '';
@@ -29,9 +30,9 @@ const ListCardPublications: React.FC<ListCardPublicationsProps> = ({ title, desc
                 </div>
 
                 <div className="card-body text-justify">
-                    <h4 className="card-title text-center">{title}</h4>
+                    <h5 className="card-title text-center">{title}</h5>
                     <p className="card-subtitle mb-2 text-muted">{description}</p>
-                    <p className="card-text text-truncate">{description}</p>
+                    <p className="card-text text-truncate">{text}</p>
                 </div>
 
             </div>

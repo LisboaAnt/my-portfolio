@@ -136,6 +136,14 @@
 
         "publication": {
             "title": "Artículos"
+        },
+
+        "publications":{    
+            "publication1": {
+                "title": "MongoDB: Experiencias y Aprendizajes en NoSQL",
+                "description": "Transformación de Datos con Herramientas como PyPandas",
+                "text": "En los últimos meses, me he sumergido en el mundo de MongoDB, una poderosa base de datos NoSQL que ofrece un enfoque flexible y escalable para el almacenamiento de datos. Durante este período de estudio y práctica, he acumulado una amplia gama de experiencias y aprendizajes que han enriquecido mi comprensión sobre la gestión de datos no relacionales. Una de las actividades más significativas que realicé fue la transformación de datos de hojas de cálculo a MongoDB utilizando la biblioteca PyPandas. Esta herramienta resultó esencial para la manipulación y limpieza de grandes volúmenes de datos, permitiéndome preparar y cargar información de manera eficiente y precisa. A lo largo de este viaje, enfrenté diversos desafíos que me ayudaron a profundizar mi conocimiento sobre la arquitectura y las funcionalidades de MongoDB. Aprendí a crear y gestionar colecciones, a utilizar operadores avanzados para consultas complejas y a optimizar el rendimiento de las operaciones de la base de datos. Además, exploré las mejores prácticas de modelado de datos en el contexto NoSQL, garantizando que mis aplicaciones fueran robustas y escalables. El uso combinado de PyPandas y MongoDB demostró ser una estrategia poderosa para proyectos que requieren flexibilidad en la estructuración de datos y rapidez en el procesamiento de grandes conjuntos de información. Este aprendizaje no solo amplió mis habilidades técnicas, sino que también me preparó para enfrentar futuras demandas en el campo del análisis y la gestión de datos. En resumen, mi experiencia con MongoDB ha sido extremadamente enriquecedora. La práctica constante y la aplicación de herramientas complementarias como PyPandas me permitieron explorar todo el potencial de la base de datos NoSQL, consolidando mi capacidad para manejar desafíos complejos de datos en diferentes contextos."
+            }
         }
 
     }

@@ -30,6 +30,7 @@ const ListCardPublications: React.FC<ListCardPublicationsProps> = ({ maxCards })
                             <CardPublication 
                                 title={`${t(project.title)}`}
                                 description={t(project.description)}
+                                text={t(project.text)}
                                 index={invertedIndex}
                             />
                         </div>

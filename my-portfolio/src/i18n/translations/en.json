@@ -136,6 +136,14 @@
 
         "publication": {
             "title": "Publications"
+        },
+
+        "publications":{    
+            "publication1": {
+                "title": "MongoDB: Experiences and Learnings in NoSQL",
+                "description": "Data Transformation with Tools like PyPandas",
+                "text": "In recent months, I have delved into the world of MongoDB, a powerful NoSQL database that offers a flexible and scalable approach to data storage. During this period of study and practice, I have accumulated a vast range of experiences and learnings that have enriched my understanding of non-relational data management. One of the most significant activities I undertook was transforming spreadsheet data into MongoDB using the PyPandas library. This tool proved essential for manipulating and cleaning large volumes of data, allowing me to prepare and load information efficiently and accurately. Throughout this journey, I faced various challenges that helped deepen my knowledge of MongoDB's architecture and functionalities. I learned to create and manage collections, use advanced operators for complex queries, and optimize database operations' performance. Additionally, I explored best practices for data modeling in the NoSQL context, ensuring my applications were robust and scalable. The combined use of PyPandas and MongoDB proved to be a powerful strategy for projects that require flexibility in data structuring and speed in processing large datasets. This learning not only expanded my technical skills but also prepared me to meet future demands in the field of data analysis and management. In summary, my experience with MongoDB has been extremely enriching. Constant practice and the application of complementary tools like PyPandas allowed me to explore the full potential of the NoSQL database, consolidating my ability to handle complex data challenges in different contexts."
+            }
         }
         
     }
