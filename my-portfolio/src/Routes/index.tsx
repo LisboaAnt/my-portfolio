@@ -10,7 +10,8 @@ import Project from '../pages/Projects/Project/index.tsx';
 import HubProjects from '../pages/Projects/HubProjects/index.tsx';
 import Contact from '../pages/Contact/index.tsx';
 import Publicdoc from '../pages/Publicdoc/index.tsx';
-import Publications from '../pages/Publications/index.tsx';
+import Publications from '../pages/Publications/HubPublications/index.tsx';
+import Publication from '../pages/Publications/Publication/index.tsx';
 
 
 const router = createBrowserRouter([
@@ -36,10 +37,6 @@ const router = createBrowserRouter([
         element: <Cursos />,
       },
       {
-        path: '/publications',
-        element: <Publications/>,
-      },
-      {
         path: '/rastreamento',
         element: <Publicdoc/>,
       },
@@ -50,6 +47,14 @@ const router = createBrowserRouter([
       {
         path: '/projects/:id',
         element: <Project />,
+      },      
+      {
+        path: '/publications',
+        element: <Publications/>,
+      },
+      {
+        path: '/publications/:id',
+        element: <Publication/>,
       },
     ],
   },

@@ -22,7 +22,7 @@ const ListCardPublications: React.FC<ListCardPublicationsProps> = ({ title, desc
             <div className="card">
 
                 <div className="image-container">
-                    <Link to={`/projects/${1 + index}`} className="overlay">
+                    <Link to={`/publications/${1 + index}`} className="overlay">
                         <div className='button'>
                             <Link to={`/publications/${1 + index}`} className="btn btn-white btn-animate">Ver Detalhes</Link>
                         </div>
