@@ -26,7 +26,7 @@ const ListCardPublications: React.FC<ListCardPublicationsProps> = ({ maxCards })
                 {projects.map((project: any, index: number) => {
                     const invertedIndex = json.projects.length - reversedProjects.indexOf(project) - 1;
                     return (
-                        <div key={index} className="col-sm-8 col-md-4 cards">
+                        <div key={index} className="col-sm-8 col-md-4 cards cardpubli">
                             <CardPublication 
                                 title={`${t(project.title)}`}
                                 description={t(project.description)}

@@ -7,6 +7,7 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 import './style.scss';
 import * as pdfjsLib from 'pdfjs-dist/build/pdf';
+import PublicationsCarosel from '../../../components/PublicationsCarosel';
 
 // Configurar o worker
 pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
@@ -45,9 +46,9 @@ const Publication = () => {
                 <div className='col-lg-8 text-center'>
                     <div className="pb-5">
                         <h1 className='pb-4'>{t("publications.publication" + id + ".title")}</h1>
-                        <div className="cardText px-1 px-md-5">
+                        <div className="cardText px-1 px-md-5 py-3">
                             <h3 className='py-2 pt-3'>{t("publications.publication" + id +".description")}</h3>
-                            <p className='text-justify px-2 pb-4'>{t("publications.publication" + id +".text")}</p>
+                            <div className='text-justify px-2 pb-4' dangerouslySetInnerHTML={{ __html: t("publications.publication" + id +".text").replace(/\n/g, '<br>') }} />
                         </div>
                     </div>
 
@@ -59,11 +60,14 @@ const Publication = () => {
                         </Worker>
                     )}
                 </div>
-                <div className='col-lg-2 pt-5'>
-                    <div className='pt-5'>
-                        <img src={`/img/publications/${id}.img`} alt="Imagem" className="img-fluid" />
-                    </div>
+
+                <div className='col-lg-3 py-5 mt-2'>
+                        <div className='pt-4 mt-5'>
+                            <PublicationsCarosel id={id+""} />
+                        </div>
                 </div>
+
+                
             </div>
         </div>
     </div>
