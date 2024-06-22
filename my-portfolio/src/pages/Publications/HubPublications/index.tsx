@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 import { useTranslation } from "react-i18next";
-import ListCardPublications from '../../components/ListCardsPublications';
+import ListCardPublications from '../../../components/ListCardsPublications';
 
 const Publications: React.FC = () => {
 

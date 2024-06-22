@@ -4,8 +4,12 @@
             "title": "publications.publication1.title",
             "description": "publications.publication1.description",
             "text": "publications.publication1.text"
+        },
+        {
+            "title": "publications.publication2.title",
+            "description": "publications.publication2.description",
+            "text": "publications.publication2.text"
         }
-
     ]
 }
   
