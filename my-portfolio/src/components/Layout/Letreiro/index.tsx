@@ -18,7 +18,7 @@ const Letreiro: React.FC<LetreiroProps> = ({ text }) => {
 
   return (
     <Link className="marquee-container" to="/contact" onClick={handleLogoClick} style={{ color: 'black', textDecoration: 'none', cursor: 'pointer' }}>
-      <div className="marquee-content">{text + `          ` + text}</div>
+      <div className="marquee-content">{text + text}</div>
     </Link>
   );
 };
