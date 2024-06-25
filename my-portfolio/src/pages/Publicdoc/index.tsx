@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { writeToDocument, clearDocument, getDocumentContent } from '../../ts/documentService';
 import './style.scss';
+import MostradorDados from '../../components/MostradorDados';
 
 const Publicdoc: React.FC = () => {
   const [content, setContent] = useState<string>('');
@@ -46,7 +47,9 @@ const Publicdoc: React.FC = () => {
   return (
     <div className='container publicDoc'>
       <div className='row justify-content-center'>
-        <div className='col-lg-12'>
+        <div className='col-lg-12'>            { MostradorDados && content && (
+                <MostradorDados dados={content} />
+              )}
           {loading ? (
             <p>Loading...</p>
           ) : (
@@ -81,6 +84,9 @@ const Publicdoc: React.FC = () => {
               </div>
             </div>
           )}
+
+          
+
         </div>
       </div>
     </div>
