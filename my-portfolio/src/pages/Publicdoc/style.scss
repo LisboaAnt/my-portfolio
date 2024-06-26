@@ -1,19 +1,12 @@
-.publicDoc textarea {
-    width: 100%; /* Ensure textareas take full width */
-    max-width: 50em; /* Set a maximum width for larger screens */
+.publicDoc{
 
+
+
+
+  .grafico{
+    background-color: rgba(0, 255, 8, 0.088);
+    border-radius: 1em;
+    padding: 20px;
+    margin-bottom: 5em;
   }
-
-.publicDoc  .text-center {
-    display: flex;
-    justify-content: center;
-    gap: 10px; /* Add some space between buttons */
-  }
-  
-
-  .button button{
-    width: 10em;
-    font-size: 2em;
-    margin-top: 1em;
-    margin-bottom: 1em; 
 }

@@ -18,6 +18,15 @@
     display: inline-block;
     margin: 0 10px;
   }
+
+  .unico {
+    text-decoration: none !important; /* Remove o sublinhado do link */
+    color: #000000!important;
+    cursor: default !important; /* Remove o cursor de link */
+    margin: 0 !important; /* Remove margem para reduzir espaço vertical */
+    padding: 0 !important; /* Remove padding para reduzir espaço interno */
+    font-size: 1em !important; /* Torna o tamanho da fonte zero para ocultar completamente o texto */
+  }
   
 /* Media query para telas pequenas */
 @media (max-width: 768px) {

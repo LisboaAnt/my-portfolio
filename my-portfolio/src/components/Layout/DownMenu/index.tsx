@@ -39,7 +39,7 @@ const NavMenu: React.FC = () => {
       <button onClick={toggleMenu} className="nav-menu-btn">
         <span className={menuIsOpen ? 'menu-close' : 'menu-open'}>
           <h1>{menuIsOpen ? t("NavBar.DownMenu.open") : t("NavBar.DownMenu.close")}</h1>
-          <i className={menuIsOpen ? 'bi bi-x-lg ps-2' : 'bi bi-list ps-2'}></i>
+          <i className={menuIsOpen ? 'bi bi-x-lg ps-2 simbolodownmenu' : 'bi bi-list ps-2 simbolodownmenu'}></i>
         </span>
       </button>
       {menuIsOpen && (
