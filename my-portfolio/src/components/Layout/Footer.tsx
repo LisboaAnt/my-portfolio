@@ -29,7 +29,7 @@ const Footer = React.memo(() => {
         </ul>
       </div>
       <div className="Footer-section">
-        <p>&copy; {new Date().getFullYear()} {t("Footer.companyName")}. {t("Footer.rightsReserved")}</p>
+        <p><Link className='unico' to="/rastrear">&copy;</Link> {new Date().getFullYear()} {t("Footer.companyName")}. {t("Footer.rightsReserved")}</p>
       </div>
     </footer>
   );
