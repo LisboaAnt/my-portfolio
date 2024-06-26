@@ -4,6 +4,13 @@
     position: relative;
     z-index: 3;
     
+    .simbolodownmenu {
+      margin-left: auto;
+      margin-right: 0.1em;
+      font-size: 1.1em;
+      padding-bottom: 1px;
+    }
+
     .nav-menu-btn {
       color: #1c1c1c;
       border: 2px solid #dbf8ff;
