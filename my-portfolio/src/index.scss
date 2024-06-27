@@ -50,3 +50,11 @@
     font-size: 1.3em;
     font-weight: 600;
   }
+
+
+/* Exemplo de CSS para ocultar visualmente o #/ na URL */
+a[href^="#"]:after {
+  content: none;
+}
+
+  

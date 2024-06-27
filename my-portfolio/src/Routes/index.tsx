@@ -25,35 +25,35 @@ const router = createBrowserRouter([
         element: <Home/>,
       },
       {
-        path: '/me',
+        path: 'me',
         element: <Me/>
       },
       {
-        path: '/contact',
+        path: 'contact',
         element: <Contact/>,
       },
       {
-        path: '/cursos',
+        path: 'cursos',
         element: <Cursos />,
       },
       {
-        path: '/rastrear',
+        path: 'rastrear',
         element: <Publicdoc/>,
       },
       {
-        path: '/projects',
+        path: 'projects',
         element: <HubProjects />,
       },
       {
-        path: '/projects/:id',
+        path: 'projects/:id',
         element: <Project />,
       },      
       {
-        path: '/publications',
+        path: 'publications',
         element: <Publications/>,
       },
       {
-        path: '/publications/:id',
+        path: 'publications/:id',
         element: <Publication/>,
       },
     ],
