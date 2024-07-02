@@ -36,9 +36,9 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- Página "rastrear" -->
+  <!-- Página "dados" -->
   <url>
-    <loc>https://antoniolisboa.site/rastrear</loc>
+    <loc>https://antoniolisboa.site/dados</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

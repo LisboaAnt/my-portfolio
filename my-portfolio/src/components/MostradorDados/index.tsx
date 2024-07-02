@@ -1,9 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import L from 'leaflet';
 import axios from 'axios';
 import 'leaflet/dist/leaflet.css';
 import { separarDadosRegistros } from '../SeparadorDados';
-import './style.scss'
+import './style.scss';
+
+// Importação dos ícones padrão do Leaflet
+import markerIcon from 'leaflet/dist/images/marker-icon.png';
+import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
+import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+
 interface Registro {
   data: string;
   ip: string;
@@ -78,8 +85,6 @@ const MostradorDados: React.FC<Props> = ({ dados }) => {
         }));
         setDadosSeparados(novosDadosSeparados);
         setLoading(false); // Marca que o carregamento foi concluído
-
-
       });
     };
 
@@ -126,8 +131,19 @@ interface GeocodificadorProps {
 const Geocodificador: React.FC<GeocodificadorProps> = ({ registro }) => {
   const [position] = useState<[number, number] | null>(registro.position || null);
 
+  // Configuração do ícone do marcador
+  const markerIconDefault = L.icon({
+    iconUrl: markerIcon,
+    iconRetinaUrl: markerIcon2x,
+    shadowUrl: markerShadow,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41],
+  });
+
   return position ? (
-    <Marker position={position}>
+    <Marker position={position} icon={markerIconDefault}>
       <Popup>
         <div>
           <p><strong>Registro:</strong> {registro.data}</p>

@@ -37,7 +37,7 @@ const router = createBrowserRouter([
         element: <Cursos />,
       },
       {
-        path: 'rastrear',
+        path: 'dados',
         element: <Publicdoc/>,
       },
       {
