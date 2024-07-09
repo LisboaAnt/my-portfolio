@@ -131,7 +131,18 @@
                 "technologies": ["REACT", "Bootstrap", "Jscript", "FIGMA"],
                 "photo": "/img/projects/project1.png",
                 "status": "Completado🟢"
+            },
+            "project9": {
+                "title": "Tailwind spotify",
+                "description": "Reconstruyendo Spotify con Tailwind",
+                "text": "Este proyecto fue una oportunidad valiosa para profundizar mis conocimientos en Tailwind CSS, utilizando Next.js 14 y TypeScript. Inspirado por el curso de Rocket, recreamos la interfaz de Spotify, aplicando técnicas modernas de desarrollo web. Fue una experiencia práctica y enriquecedora, explorando no solo el diseño responsive y las funcionalidades dinámicas, sino también la integración de tecnologías avanzadas para crear una experiencia de usuario envolvente.",
+                "link": "https://tailwind-spotify-ochre.vercel.app",
+                "youtube": "https://youtu.be/YVI-q3idGiM?si=riKfjqPcj3jycKMK",
+                "technologies": ["REACT", "NEXT", "Tscript", "Tailwind"],
+                "photo": "/img/projects/project9.png",
+                "status": "Concluido🟢"
             }
+
         },
 
         "publication": {
