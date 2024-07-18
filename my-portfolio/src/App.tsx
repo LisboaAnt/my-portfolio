@@ -2,6 +2,10 @@ import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Outlet } from 'react-router-dom';
 
+
+//* Vercel
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 import './App.scss';
 
 import NavBar from './components/Layout/NavBar';
@@ -23,6 +27,7 @@ function App() {
 
   return (
     <div className='App'>
+      <SpeedInsights/>
       <ScrollToTop />
       <VisitorLogger />
       <NavBar />

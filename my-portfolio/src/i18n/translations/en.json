@@ -141,6 +141,16 @@
                 "technologies": ["REACT", "NEXT", "Tscript", "Tailwind"],
                 "photo": "/img/projects/project9.png",
                 "status": "Completed🟢"
+            },
+            "project10": {
+                "title": "User List with Multi-Platform Hosting",
+                "description": "Separation of Front-end, Back-end, and Database",
+                "text": "The project involves user registration, with the main challenge being the separation of the front-end, back-end, and database, each hosted on different platforms. The front-end was developed with React, TypeScript, and Tailwind, and hosted on Vercel. The back-end was implemented with Node.js, using JavaScript, routes with CORS, and Prisma for database connection, hosted on the Render platform. The chosen database was MongoDB, hosted on its own online database service. The project's main challenges included ensuring each part functioned independently and testing server response times, continually seeking ways to optimize requests.",
+                "link": "https://user-register-front-ncbhlgs0o-antonio-lisboas-projects.vercel.app",
+                "youtube": "",
+                "technologies": ["REACT", "Tscript", "Jscript", "Tailwind", "MongoDB", "Nodejs"],
+                "photo": "/img/projects/project10.png",
+                "status": "Completed🟢"
             }
 
         },
