@@ -141,6 +141,16 @@
                 "technologies": ["REACT", "NEXT", "Tscript", "Tailwind"],
                 "photo": "/img/projects/project9.png",
                 "status": "Concluído🟢"
+            },
+            "project10":{
+                "title": "Registro de Lista com Hospedagem em Múltiplas Plataformas",
+                "description": "Separação de Front-end, Back-end e Banco de Dados",
+                "text": "O projeto realiza o registro de usuário, sendo o principal desafio separar o front-end, o back-end e o banco de dados, hospedando cada um em plataformas diferentes. O front-end foi desenvolvido com React, TypeScript e Tailwind, e hospedado na Vercel. O back-end foi implementado com Node.js, utilizando JavaScript, rotas com CORS e Prisma para a conexão com o banco de dados, sendo hospedado na plataforma Render. O banco de dados escolhido foi o MongoDB, hospedado em seu próprio serviço de banco de dados online. Os maiores desafios do projeto incluíram garantir que cada parte funcionasse de forma independente e testar o tempo de resposta dos servidores, buscando continuamente formas de otimizar as requisições.",
+                "link": "https://user-register-front-ncbhlgs0o-antonio-lisboas-projects.vercel.app",
+                "youtube":"",
+                "technologies": ["REACT", "Tscript", "Jscript", "Tailwind", "MongoDB", "Nodejs"],
+                "photo": "/img/projects/project10.png",
+                "status": "Concluído🟢"
             }
         },
 
