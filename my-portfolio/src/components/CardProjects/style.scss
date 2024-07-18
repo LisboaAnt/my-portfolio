@@ -52,7 +52,12 @@
     }
 
 
-
+    @media (min-width: 1500px) {
+        .props .card{
+            width: 55vh;
+            height: 45vh;
+        }
+    }
 
     @media (max-width: 1400px) {
         .props .card{
@@ -98,9 +103,10 @@
         .props .card{
             transform: scale(0.85);
             margin: 0em;
+            width: 27em;
         }
-    
     }
+    
 
 
     .props .cardimg{
