@@ -59,19 +59,6 @@
         },
         
         "projects": {
-            "project1": {
-                
-            },
-            "project2": {
-                "title": "Gráficos por Computadora OpenGL",
-                "description": "Un curso de OpenGL con Python vía YouTube",
-                "text": "Este repositorio contiene dos proyectos principales desarrollados utilizando OpenGL y Python, enfocados en gráficos por computadora. Ambos proyectos son independientes y representan diferentes aspectos y complejidades de los gráficos por computadora.",
-                "link": "https://github.com/LisboaAnt/OpenGLPython",
-                "youtube": "https://youtu.be/yaSgU_XS56M",
-                "technologies": ["Python", "OpenGL"],
-                "photo": "/img/projects/project2.png",
-                "status": "Completado🟢"
-            },
             "project3": {
                 "title": "Juego con Turtle",
                 "description": "Un juego en Python desarrollado con Turtle",
@@ -151,6 +138,16 @@
                 "technologies": ["REACT", "Tscript", "Jscript", "Tailwind", "MongoDB", "Nodejs"],
                 "photo": "/img/projects/project10.png",
                 "status": "Concluido🟢"
+            },
+            "project11": {
+                "title": "Gráficos por Computadora OpenGL",
+                "description": "Un curso de OpenGL con Python vía YouTube",
+                "text": "Este repositorio contiene dos proyectos principales desarrollados utilizando OpenGL y Python, enfocados en gráficos por computadora. Ambos proyectos son independientes y representan diferentes aspectos y complejidades de los gráficos por computadora.",
+                "link": "https://github.com/LisboaAnt/OpenGLPython",
+                "youtube": "https://youtu.be/xg9d4q9i9K4?si=K846zfzpS5h4lzP2",
+                "technologies": ["Python", "OpenGL"],
+                "photo": "/img/projects/project2.png",
+                "status": "En andamiento 🟡"
             }
 
         },

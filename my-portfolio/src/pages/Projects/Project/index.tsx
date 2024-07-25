@@ -10,7 +10,7 @@ const Project = () => {
     const youtubeLink = t("projects.project" + id + ".youtube");
 
     function isYouTubeLink(url: string) {
-        const youtubePattern = /^(https?:\/\/)?(www\.)?(youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]+)/;
+        const youtubePattern = /^(https?:\/\/)?(www\.)?([a-zA-Z0-9_-]+)/;
         return youtubePattern.test(url);
     }
 

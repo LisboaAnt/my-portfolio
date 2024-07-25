@@ -6,9 +6,9 @@
         "photo": ""
       },
       {
-        "title": "projects.project2.title",
-        "description": "projects.project2.description",
-        "photo": "img/projects/project2.png"
+        "title": "",
+        "description": "",
+        "photo": ""
       },
       {
         "title": "projects.project3.title",
@@ -49,6 +49,11 @@
         "title": "projects.project10.title",
         "description": "projects.project10.description",
         "photo": "img/projects/project10.png"
+      },
+      {
+        "title": "projects.project11.title",
+        "description": "projects.project11.description",
+        "photo": "img/projects/project2.png"
       }
     ]
   }

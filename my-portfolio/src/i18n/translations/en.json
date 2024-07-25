@@ -60,18 +60,6 @@
 
 
         "projects": {
-            "project1": {
-            },
-            "project2": {
-                "title": "OpenGL Computer Graphics",
-                "description": "A course on OpenGL with Python via YouTube",
-                "text": "This repository contains two main projects developed using OpenGL and Python, focused on computer graphics. Both projects are independent and represent different aspects and complexities of computer graphics.",
-                "link": "https://github.com/LisboaAnt/OpenGLPython",
-                "youtube": "https://youtu.be/yaSgU_XS56M",
-                "technologies": ["Python", "OpenGL"],
-                "photo": "/img/projects/project2.png",
-                "status": "Completed🟢"
-            },
             "project3": {
                 "title": "Turtle Game",
                 "description": "A game in Python developed with Turtle",
@@ -151,6 +139,16 @@
                 "technologies": ["REACT", "Tscript", "Jscript", "Tailwind", "MongoDB", "Nodejs"],
                 "photo": "/img/projects/project10.png",
                 "status": "Completed🟢"
+            },
+            "project11": {
+                "title": "OpenGL Computer Graphics",
+                "description": "A course on OpenGL with Python via YouTube",
+                "text": "This repository contains two main projects developed using OpenGL and Python, focused on computer graphics. Both projects are independent and represent different aspects and complexities of computer graphics.",
+                "link": "https://github.com/LisboaAnt/OpenGLPython",
+                "youtube": "https://youtu.be/xg9d4q9i9K4?si=K846zfzpS5h4lzP2",
+                "technologies": ["Python", "OpenGL"],
+                "photo": "/img/projects/project2.png",
+                "status": "In progress 🟡"
             }
 
         },
