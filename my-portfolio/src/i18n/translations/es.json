@@ -165,7 +165,7 @@
                 "text": "Este repositorio trata sobre un proyecto que aleatoriza el panel de leyes de Victoria 3. Está construido con Next.js, React y TypeScript. El principal desafío fue lidiar con las leyes de Victoria, ya que una ley puede bloquear o requerir otra. Esta parte fue desarrollada usando JavaScript para facilitar la implementación.",
                 "link": "https://victoria3randomcountrylaws.vercel.app",
                 "youtube": "",
-                "technologies": ["JavaScript", "TypeScript", "Next.js", "React"],
+                "technologies": ["JavaScript", "TScript", "Next", "React"],
                 "photo": "/img/projects/project13.png",
                 "status": "Completado 🟢"
             }
