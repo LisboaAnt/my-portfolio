@@ -159,6 +159,16 @@
                 "technologies": ["JavaScript", "Next.js", "React"],
                 "photo": "/img/projects/project12.png",
                 "status": "Completed 🟢"
+            },
+            "project13": {
+                "title": "Victoria 3 Random Laws",
+                "description": "Random Law Selector in V3",
+                "text": "This repository is about a project that randomizes the law panel of Victoria 3. It is built with Next.js, React, and TypeScript. The main challenge was dealing with Victoria's laws, as one law can block or require another. This part was developed using JavaScript to facilitate implementation.",
+                "link": "https://victoria3randomcountrylaws.vercel.app",
+                "youtube": "",
+                "technologies": ["JavaScript", "TypeScript", "Next.js", "React"],
+                "photo": "/img/projects/project13.png",
+                "status": "Completed 🟢"
             }
         },
 
