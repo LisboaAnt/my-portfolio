@@ -134,7 +134,7 @@
                 "title": "Lista com Múltiplas Hospedagem",
                 "description": "Separação de Front-end, Back-end e Banco de Dados",
                 "text": "Hospedagem em Múltiplas Plataformas. O projeto realiza o registro de usuário, sendo o principal desafio separar o front-end, o back-end e o banco de dados, hospedando cada um em plataformas diferentes. O front-end foi desenvolvido com React, TypeScript e Tailwind, e hospedado na Vercel. O back-end foi implementado com Node.js, utilizando JavaScript, rotas com CORS e Prisma para a conexão com o banco de dados, sendo hospedado na plataforma Render. O banco de dados escolhido foi o MongoDB, hospedado em seu próprio serviço de banco de dados online. Os maiores desafios do projeto incluíram garantir que cada parte funcionasse de forma independente e testar o tempo de resposta dos servidores, buscando continuamente formas de otimizar as requisições.",
-                "link": "https://user-register-front-ncbhlgs0o-antonio-lisboas-projects.vercel.app",
+                "link": "https://user-register-front.vercel.app",
                 "youtube":"",
                 "technologies": ["REACT", "Tscript", "Jscript", "Tailwind", "MongoDB", "Nodejs"],
                 "photo": "/img/projects/project10.png",
@@ -149,6 +149,16 @@
                 "technologies": ["Python", "OpenGL"],
                 "photo": "/img/projects/project2.png",
                 "status": "Em andamento🟡"
+            },
+            "project12": {
+                "title": "SO Calculadora Escalonadores RM & EDF",
+                "description": "Calculadora para analisar os tipos de escalonadores",
+                "text": "Este repositório contém um projeto de Sistemas Operacionais (SO) que busca exemplificar de forma simples e visual os escalonadores RM e EDF.",
+                "link": "https://escalonamento-tarefas-antonio-lisboas-projects.vercel.app",
+                "youtube": "",
+                "technologies": ["JavaScript", "Next.js", "React"],
+                "photo": "/img/projects/project12.png",
+                "status": "Concluído 🟢"
             }
         },
 
