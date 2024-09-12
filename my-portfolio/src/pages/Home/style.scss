@@ -17,6 +17,7 @@
 
 
 .sobreMimCurriculo {
+    /* Estilos para a seção "Sobre Mim" */
     .aboutme {
         padding-inline: 1em;
         text-align: start;
@@ -25,45 +26,59 @@
         background-color: rgb(243, 243, 243);
         border-radius: 10px;
         font-size: 1.5em;
+        margin-bottom: 2em; /* Adiciona espaço entre elementos */
     }
 
+    /* Estilos para a "Card" */
     .card {
         background-color: #00758f;
         border: none;
+        display: flex; /* Garante alinhamento flexível */
+        flex-direction: column; /* Coloca o conteúdo em coluna */
         align-items: center;
         justify-content: center;
         height: 220px;
         min-width: 18em;
         max-width: 25em;
+        border-radius: 10px; /* Adiciona bordas arredondadas */
 
         h1 {
             font-size: 2em;
-            color: #ffff;
+            color: #ffffff;
+            text-align: center;
         }
 
         h2 {
             font-size: 1.5em;
-            color: #ffff;
+            color: #ffffff;
+            text-align: center;
         }
     }
 
+    /* Estilo para o container do link */
     .link-container {
         width: 11em;
+        margin-bottom: 1em; /* Espaçamento inferior */
     }
 
+    /* Links sem estilo sublinhado */
     .link-unstyled {
         text-decoration: none !important;
         color: inherit !important;
     }
+
+    /* Título com transição */
     .link-unstyled h1 {
-        transition: color 0.3s ease; /* Adiciona a transição suave */
+        transition: color 0.3s ease;
         width: 5em;
     }
 
+    /* Efeito hover no título */
     .link-unstyled h1:hover {
         color: #00758f;
     }
 }
+
 
 
 .irpara {
@@ -83,11 +98,11 @@
     }
     .btn:hover {
         background-color: rgba(208, 208, 208, 0.541);
-          transform: translateY(-3px);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-      }
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
 
-  }
+}
 
 
 /* Media query para telas médias */

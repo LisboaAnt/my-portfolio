@@ -1,114 +1,110 @@
-
 .props .card {
-        width:100%; // Defina a largura fixa para os cards
-        position: relative;
+    width: 25em;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 40px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20em;
+
+    .card-img-top {
+        transition: opacity 0.3s ease;
+        height: 15em;
+        width: 100%;
+        object-fit: cover; /* Melhora a renderização da imagem */
         overflow: hidden;
-        margin-bottom: 40px;
-        min-width: 300px;
+    }
 
-        .card-img-top {
-            transition: opacity 0.3s ease;
-            height: 15em;
-            width: max;
-            overflow: hidden;
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.685);
+        transition: opacity 0.5s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        pointer-events: none;
+        
+        .button {
+            pointer-events: all;
         }
+    }
 
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.685);
-            transition: all .5s;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            opacity: 0;      
-            pointer-events: fill;   
-            .button{
-                pointer-events:all;   
-            }
-        }
+    &:hover .overlay {
+        opacity: 1;
+        pointer-events: all;
+    }
 
-        &:hover .overlay {
-            opacity: 1;
-        }
-
-        .btncard {
+    .btncard {
+        color: inherit;
+        text-decoration: none;
+        font-weight: bold;
+        display: none;
+        
+        &:hover {
             color: inherit;
             text-decoration: none;
-            font-weight: bold;
-            display: none;
-            &:hover {
-                color: inherit;
-                text-decoration: none;
-            }
-        }
-
-        &:hover .btncard {
-            display: block;
         }
     }
 
-
-    @media (min-width: 1500px) {
-        .props .card{
-            width: 55vh;
-            height: 45vh;
-        }
+    &:hover .btncard {
+        display: block;
     }
+}
 
-    @media (max-width: 1400px) {
-        .props .card{
-            margin-bottom: 10px;
-        }
+@media (min-width: 1500px) {
+    .props .card {
+        max-width: 55vh;
     }
+}
 
-
-    @media (max-width: 1000px) {
-        .props .card{
-            transform: scale(0.8);
-            margin-top: -30px;
-        }
+@media (max-width: 1400px) {
+    .props .card {
+        margin-bottom: 10px;
     }
-    @media (max-width: 850px) {
-        .props .card{
-            transform: scale(0.7);
-        }
-    
-    }
+}
 
-    @media (max-width: 766px) {
-        .props .card{
-            transform: scale(0.9);
-            margin-bottom: -10px;
-        }
-    
+@media (max-width: 1000px) {
+    .props .card {
+        width: 90%;
+        margin-top: -30px;
     }
+}
 
-    @media (max-width: 700px) {
-        .props .card{
-            transform: scale(0.8);
-        }
+@media (max-width: 850px) {
+    .props .card {
+        width: 85%;
     }
+}
 
-    @media (max-width: 630px) {
-        .props .card{
-            transform: scale(0.75);
-        }
+@media (max-width: 766px) {
+    .props .card {
+        width: 95%;
+        margin-bottom: -10px;
     }
+}
 
-    @media (max-width: 500px) {
-        .props .card{
-            transform: scale(0.85);
-            margin: 0em;
-            width: 27em;
-        }
+@media (max-width: 700px) {
+    .props .card {
+        width: 80%;
     }
-    
+}
 
-
-    .props .cardimg{
-        width: 26em;
+@media (max-width: 630px) {
+    .props .card {
+        width: 75%;
     }
+}
+
+@media (max-width: 500px) {
+    .props .card {
+        width: 100%;
+        margin: 0;
+    }
+}

@@ -8,16 +8,16 @@ const Publications: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="publications d-flex justify-content-center">
-      <div className='containerPublication'>
-            <div className='text-center'>
-                <h1 className='mb-4 titulo'>{t("publication.title")}</h1>
-                <div className='publicationss'>
-                  <ListCardPublications/>
+    <div className="col-md-12 publications d-flex justify-content-center">
+        <div className="containerPublication">
+            <div className="text-center">
+                <h1 className="mb-4 titulo">{t("publication.title")}</h1>
+                <div className="publicationss">
+                    <ListCardPublications />
                 </div>
-              </div>
-      </div>
-  </div>
+            </div>
+        </div>
+    </div>
   );
 };
 
