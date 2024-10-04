@@ -168,10 +168,17 @@
                 "technologies": ["JavaScript", "TScript", "Next", "React"],
                 "photo": "/img/projects/project13.png",
                 "status": "Completado 🟢"
-            }
-
-
-
+            },
+            "project14": {
+            "title": "TRON TRAILER | Studio LISBOA",
+            "description": "Juego inspirado en la película TRON de Disney",
+            "text": "Juego inspirado en la clásica película TRON de Disney, desarrollado por Studio LISBOA. Este proyecto fue creado utilizando OpenGL y Python, recreando los elementos visuales y dinámicos del universo TRON en un juego interactivo.",
+            "link": "https://youtu.be/speVigR8A-Q",
+            "youtube": "https://youtu.be/speVigR8A-Q",
+            "technologies": ["Python", "OpenGL"],
+            "photo": "/img/projects/project14.png",
+            "status": "Completado 🟢"
+        }
         },
 
         "publication": {
