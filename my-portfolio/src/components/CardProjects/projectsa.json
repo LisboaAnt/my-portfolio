@@ -69,6 +69,11 @@
         "title": "projects.project14.title",
         "description": "projects.project14.description",
         "photo": "img/projects/project14.png"
+      },
+      {
+        "title": "projects.project15.title",
+        "description": "projects.project15.description",
+        "photo": "img/projects/project15.png"
       }
     ]
   }

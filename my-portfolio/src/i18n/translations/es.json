@@ -178,7 +178,18 @@
             "technologies": ["Python", "OpenGL"],
             "photo": "/img/projects/project14.png",
             "status": "Completado 🟢"
-        }
+            },
+            "project15": {
+            "title": "Sitio de Portafolio de Fotografía",
+            "description": "Aplicación WEB en Next.js con Frame Motion",
+            "text": "Presentamos el Portafolio de Fotografía, una aplicación web dinámica construida con Next.js que muestra el trabajo de fotógrafos profesionales de manera interactiva. Utilizando carga asíncrona y animaciones suaves con Frame Motion, el sitio garantiza una experiencia de navegación optimizada y atractiva. Cada sección del portafolio presenta imágenes de alta calidad con transiciones elegantes, permitiendo que los clientes potenciales exploren fácilmente las habilidades y el estilo del fotógrafo. La arquitectura de Next.js garantiza rendimiento y escalabilidad, convirtiendo este portafolio en una herramienta efectiva para atraer nuevos clientes y resaltar la esencia creativa de la fotografía.",
+            "link": "https://animated-page-framer-motion.vercel.app",
+            "youtube": "https://youtu.be/xslcIhBpFvo",
+            "technologies": ["Next", "JavaScript", "React"],
+            "photo": "/img/projects/project15.png",
+            "status": "Completo 🟢"
+            }
+
         },
 
         "publication": {

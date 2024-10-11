@@ -156,7 +156,7 @@
                 "text": "This repository contains an Operating Systems (OS) project that aims to illustrate RM and EDF schedulers in a simple and visual way.",
                 "link": "https://escalonamento-tarefas-antonio-lisboas-projects.vercel.app",
                 "youtube": "",
-                "technologies": ["JavaScript", "Next.js", "React"],
+                "technologies": ["JavaScript", "Next", "React"],
                 "photo": "/img/projects/project12.png",
                 "status": "Completed 🟢"
             },
@@ -179,7 +179,17 @@
             "technologies": ["Python", "OpenGL"],
             "photo": "/img/projects/project14.png",
             "status": "Completed 🟢"
-        }
+            },
+            "project15": {
+            "title": "Photography Portfolio Site",
+            "description": "Next.js WEB Application with Frame Motion",
+            "text": "Introducing the Photography Portfolio, a dynamic web application built with Next.js that showcases the work of professional photographers in an interactive manner. Utilizing asynchronous loading and smooth animations with Frame Motion, the site ensures an optimized and engaging browsing experience. Each portfolio section features high-quality images with elegant transitions, allowing potential clients to easily explore the photographer's skills and style. The architecture of Next.js guarantees performance and scalability, making this portfolio an effective tool for attracting new clients and highlighting the creative essence of photography.",
+            "link": "https://animated-page-framer-motion.vercel.app",
+            "youtube": "https://youtu.be/xslcIhBpFvo",
+            "technologies": ["Next", "JavaScript", "React"],
+            "photo": "/img/projects/project15.png",
+            "status": "Completed 🟢"
+            }
         },
 
         "publication": {
