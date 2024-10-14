@@ -32,33 +32,33 @@ function Home() {
                         </div>
 
                         <div className="row justify-content-center py-5 my-5">
-    <div className="d-flex flex-wrap justify-content-around align-items-start sobreMimCurriculo">
-        
-        {/* Seção "Sobre Mim" */}
-        <div className="col-md-7 col-12 aboutme mb-5 pb-2">
-            <div className="link-container">
-                <Link to={"/me"} className="py-2 link-unstyled">
-                    <h1>{t("home.aboutme")}</h1>
-                </Link>
-            </div>
-            <p>{t("home.aboutme1")}</p>
-        </div>
+                            <div className="d-flex flex-wrap justify-content-center align-items-start sobreMimCurriculo">
+                                
+                                {/* Seção "Sobre Mim" */}
+                                <div className="col-md-7 col-12 aboutme mb-5 pb-2 me-5">
+                                    <div className="link-container">
+                                        <Link to={"/me"} className="py-2 link-unstyled">
+                                            <h1>{t("home.aboutme")}</h1>
+                                        </Link>
+                                    </div>
+                                    <p>{t("home.aboutme1")}</p>
+                                </div>
 
-        {/* Seção "Currículo" */}
-        <div className="col-md-4 col-12 card mb-3">
-            <div className="card-body">
-                <h1 className="card-title">{t("me.curriculum")}</h1>
-                <h2 className="card-subtitle mb-2 text-muted">{t("me.curriculum1")}</h2>
-                <div className="d-flex justify-content-center">
-                    <a href="/storage/Antonio_Lisboa_Full_Stack.pdf" download="Antonio_Lisboa_Full_Stack.pdf" className="btn btn-white btn-animate mb-1">
-                        Download <i className="bi bi-download ms-2"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-</div>
+                                {/* Seção "Currículo" */}
+                                <div className="col-md-4 col-12 card mb-3">
+                                    <div className="card-body">
+                                        <h1 className="card-title">{t("me.curriculum")}</h1>
+                                        <h2 className="card-subtitle mb-2 text-muted">{t("me.curriculum1")}</h2>
+                                        <div className="d-flex justify-content-center">
+                                            <a href="/storage/Antonio_Lisboa_Full_Stack.pdf" download="Antonio_Lisboa_Full_Stack.pdf" className="btn btn-white btn-animate mb-1">
+                                                Download <i className="bi bi-download ms-2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
 
 
                     </div>
