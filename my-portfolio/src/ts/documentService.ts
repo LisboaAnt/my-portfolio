@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // URL do serviço web do Google Apps Script
-const SERVICE_URL = 'https://script.google.com/macros/s/AKfycbykjHlDI06_9q5aTNZbNY5izbJsFsl3V6GjsQPq9M8CikS6wNftpKo4gavmwJZqP-8/exec';
+const SERVICE_URL = 'https://script.google.com/macros/s/AKfycbzvHW6AgZK2BHBMTee45ABCc1gn2ZlVlfmHOoEHh8O0QITdFo630KExkKp_3_WYE9Zc/exec';
 
 /**
  * Escreve conteúdo no documento Google Docs.
